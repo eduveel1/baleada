@@ -72,6 +72,7 @@ var ondaceroURL = "https://livefastly-webs.ondacero.es/ondacero/audio/master.m3u
 var ondaceroIMG = "https://statics.atresmedia.com/ondacero/webapp/static/media/logotipo.2372dfc4.svg";
 
 var serURl = "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENASER.mp3";
+
 var serIMG = "https://cadenaser00.epimg.net/emisora/imagenes/2016/01/22/radio_granada/1453463393_428110_1453463533_noticia_normal.jpg";
 
 var copeURL = "http://flucast-b02-03.flumotion.com/cope/net1.mp3";
