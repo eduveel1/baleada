@@ -80,7 +80,7 @@ var rneIMG = "https://estaticos.muyhistoria.es/uploads/images/article/587f30655c
 var rmarcaURL = "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONAL.mp3";
 var rmarcaIMG = "https://e00-marca.uecdn.es/imagenes/2015/11/03/mundomarca/1446557292_extras_noticia_foton_7_1.jpg";
 
-var serURL = "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONAL.mp3";
+var serURL = "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENASER.mp3";
 var serIMG = "https://cadenaser00.epimg.net/iconos/v1.x/v1.0/redes/imagenes_og/programas_v2/ser_generico_imagen_control.jpg";
 
 function getParameterByName(name) {
