@@ -5,7 +5,7 @@ window.onload = function() {
                  poster: poster,
                  parentId: '#player',
                  mimeType: 'audio/mpeg',
-                 watermark: "https://i.ibb.co/kqmptsD/iRTVW.png", 
+                 watermark: "https://eduveel1.github.io/baleada/img/iRTVW.png", 
                  position: 'top-left',
                  plugins: [LevelSelector, ChromecastPlugin, ClapprPip.PipButton, ClapprPip.PipPlugin, DashShakaPlayback, Clappr.MediaControl, PlaybackRatePlugin],
                  events: {onReady: function() {var plugin = this.getPlugin('click_to_pause'); plugin && plugin.disable();},
