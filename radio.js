@@ -69,6 +69,10 @@ window.onload = function() {
 var srcError = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 var ondaceroURL = "https://livefastly-webs.ondacero.es/ondacero/audio/master.m3u8";
 var ondaceroIMG = "https://statics.atresmedia.com/ondacero/webapp/static/media/logotipo.2372dfc4.svg";
+var serURl = "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENASER.mp3";
+var copeURL = "http://flucast-b02-03.flumotion.com/cope/net1.mp3";
+var rneURL = "https://rtvelivestreamv3.akamaized.net/rne_r1_main.m3u8";
+var rmarcaURL = "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONAL.mp3";
 
 function getParameterByName(name) {
                       name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
