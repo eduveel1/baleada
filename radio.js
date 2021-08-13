@@ -71,9 +71,6 @@ var srcError = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 var ondaceroURL = "https://livefastly-webs.ondacero.es/ondacero/audio/master.m3u8";
 var ondaceroIMG = "https://statics.atresmedia.com/ondacero/webapp/static/media/logotipo.2372dfc4.svg";
 
-var CadserURl = "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENASER.mp3";
-var CadserIMG = "https://cadenaser00.epimg.net/emisora/imagenes/2016/01/22/radio_granada/1453463393_428110_1453463533_noticia_normal.jpg";
-
 var copeURL = "http://flucast-b02-03.flumotion.com/cope/net1.mp3";
 var copeIMG = "https://static1.abc.es/media/espana/2021/05/11/herrera-cope-khxB--1024x512@abc.jpg";
 
@@ -82,6 +79,9 @@ var rneIMG = "https://estaticos.muyhistoria.es/uploads/images/article/587f30655c
 
 var rmarcaURL = "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONAL.mp3";
 var rmarcaIMG = "https://e00-marca.uecdn.es/imagenes/2015/11/03/mundomarca/1446557292_extras_noticia_foton_7_1.jpg";
+
+var serURL = "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONAL.mp3";
+var serIMG = "https://cadenaser00.epimg.net/iconos/v1.x/v1.0/redes/imagenes_og/programas_v2/ser_generico_imagen_control.jpg";
 
 function getParameterByName(name) {
                       name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
@@ -94,7 +94,8 @@ function getParameterByName(name) {
                 if (src == "#") {alert('El canal se encuentra Offline');}
                 if (src == "") {alert('El canal se encuentra Offline');}
                 if (src == "ondacero") {src = ondaceroURL; poster = ondaceroIMG;}
-                if (src == "cadenaser") {src = CadserURL; poster = CadserIMG;}
                 if (src == "cope") {src = copeURL; poster = copeIMG;}
                 if (src == "rne") {src = rneURL; poster = rneIMG;}
                 if (src == "rmarca") {src = rmarcaURL; poster = rmarcaIMG;}
+                if (src == "ser") {src = serURL; poster = serIMG}
+                if (src == "cadenaser") {src = serURL; poster = serIMG}
