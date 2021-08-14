@@ -43,7 +43,7 @@ let b8 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let b9 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let b10 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 // L G 1
-let l1 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let l1 = "http://206.189.17.7/live/ovochannel2/playlist.m3u8";
 let l2 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let l3 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let l4 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
