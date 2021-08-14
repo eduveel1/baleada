@@ -1,6 +1,6 @@
 // E P L
 let p1 = "https://wowzaprodhd95-lh.akamaihd.net/i/ed395c33_1@723959/master.m3u8";
-let p2 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let p2 = "https://wowzaprodhd95-lh.akamaihd.net/i/5ce55057_1@724326/master.m3u8";
 let p3 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let p4 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let p5 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
