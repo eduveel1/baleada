@@ -12,7 +12,7 @@ let NFLchiefs = `
 <i class="us flag"></i> NFL TV - chiefs | HD</li>
 </a>
 `;
-for (const ele of document.getElementsByClassName("nfl-chiefs")){ele.innerHTML=(NFLchiefs)}
+for (const ele of document.getElementsByClassName("nftv-chiefs")){ele.innerHTML=(NFLchiefs)}
 
 let NFLsaints = `
 <a href="http://slowdsports.000webhostapp.com/nfl.html?src=saints">
@@ -20,7 +20,7 @@ let NFLsaints = `
 <i class="us flag"></i> NFL TV - saints | HD</li>
 </a>
 `;
-for (const ele of document.getElementsByClassName("nfl-saints")){ele.innerHTML=(NFLsaints)}
+for (const ele of document.getElementsByClassName("nftv-saints")){ele.innerHTML=(NFLsaints)}
 
 let NFLbills = `
 <a href="http://slowdsports.000webhostapp.com/nfl.html?src=bills">
@@ -28,7 +28,7 @@ let NFLbills = `
 <i class="us flag"></i> NFL TV - bills | HD</li>
 </a>
 `;
-for (const ele of document.getElementsByClassName("nfl-bills")){ele.innerHTML=(NFLbills)}
+for (const ele of document.getElementsByClassName("nftv-bills")){ele.innerHTML=(NFLbills)}
 
 let NFLbrowns = `
 <a href="http://slowdsports.000webhostapp.com/nfl.html?src=browns">
@@ -36,7 +36,7 @@ let NFLbrowns = `
 <i class="us flag"></i> NFL TV - browns | HD</li>
 </a>
 `;
-for (const ele of document.getElementsByClassName("nfl-browns")){ele.innerHTML=(NFLbrowns)}
+for (const ele of document.getElementsByClassName("nftv-browns")){ele.innerHTML=(NFLbrowns)}
 
 let NFLpackers = `
 <a href="http://slowdsports.000webhostapp.com/nfl.html?src=packers">
@@ -44,7 +44,7 @@ let NFLpackers = `
 <i class="us flag"></i> NFL TV - packers | HD</li>
 </a>
 `;
-for (const ele of document.getElementsByClassName("nfl-packers")){ele.innerHTML=(NFLpackers)}
+for (const ele of document.getElementsByClassName("nftv-packers")){ele.innerHTML=(NFLpackers)}
 
 let NFLcolts = `
 <a href="http://slowdsports.000webhostapp.com/nfl.html?src=colts">
@@ -52,7 +52,7 @@ let NFLcolts = `
 <i class="us flag"></i> NFL TV - colts | HD</li>
 </a>
 `;
-for (const ele of document.getElementsByClassName("nfl-colts")){ele.innerHTML=(NFLcolts)}
+for (const ele of document.getElementsByClassName("nftv-colts")){ele.innerHTML=(NFLcolts)}
 
 let NFLrams = `
 <a href="http://slowdsports.000webhostapp.com/nfl.html?src=rams">
@@ -60,7 +60,7 @@ let NFLrams = `
 <i class="us flag"></i> NFL TV - RAMS | HD</li>
 </a>
 `;
-for (const ele of document.getElementsByClassName("nfl-rams")){ele.innerHTML=(NFLrams)}
+for (const ele of document.getElementsByClassName("nftv-rams")){ele.innerHTML=(NFLrams)}
 
 let NFLseahawks = `
 <a href="http://slowdsports.000webhostapp.com/nfl.html?src=seahawks">
@@ -68,7 +68,7 @@ let NFLseahawks = `
 <i class="us flag"></i> NFL TV - seahawks | HD</li>
 </a>
 `;
-for (const ele of document.getElementsByClassName("nfl-seahawks")){ele.innerHTML=(NFLseahawks)}
+for (const ele of document.getElementsByClassName("nftv-seahawks")){ele.innerHTML=(NFLseahawks)}
 
 let NFLtitans = `
 <a href="http://slowdsports.000webhostapp.com/nfl.html?src=titans">
@@ -76,7 +76,7 @@ let NFLtitans = `
 <i class="us flag"></i> NFL TV - titans | HD</li>
 </a>
 `;
-for (const ele of document.getElementsByClassName("nfl-titans")){ele.innerHTML=(NFLtitans)}
+for (const ele of document.getElementsByClassName("nftv-titans")){ele.innerHTML=(NFLtitans)}
 
 let NFLbuccaneers = `
 <a href="http://slowdsports.000webhostapp.com/nfl.html?src=buccaneers">
@@ -84,7 +84,7 @@ let NFLbuccaneers = `
 <i class="us flag"></i> NFL TV - buccaneers | HD</li>
 </a>
 `;
-for (const ele of document.getElementsByClassName("nfl-buccaneers")){ele.innerHTML=(NFLbuccaneers)}
+for (const ele of document.getElementsByClassName("nftv-buccaneers")){ele.innerHTML=(NFLbuccaneers)}
 
 let NFLcardinals = `
 <a href="http://slowdsports.000webhostapp.com/nfl.html?src=cardinals">
@@ -92,7 +92,7 @@ let NFLcardinals = `
 <i class="us flag"></i> NFL TV - cardinals | HD</li>
 </a>
 `;
-for (const ele of document.getElementsByClassName("nfl-cardinals")){ele.innerHTML=(NFLcardinals)}
+for (const ele of document.getElementsByClassName("nftv-cardinals")){ele.innerHTML=(NFLcardinals)}
 
 let NFLravens = `
 <a href="http://slowdsports.000webhostapp.com/nfl.html?src=ravens">
@@ -100,7 +100,7 @@ let NFLravens = `
 <i class="us flag"></i> NFL TV - ravens | HD</li>
 </a>
 `;
-for (const ele of document.getElementsByClassName("nfl-ravens")){ele.innerHTML=(NFLravens)}
+for (const ele of document.getElementsByClassName("nftv-ravens")){ele.innerHTML=(NFLravens)}
 
 let NFLraiders = `
 <a href="http://slowdsports.000webhostapp.com/nfl.html?src=raiders">
@@ -108,7 +108,7 @@ let NFLraiders = `
 <i class="us flag"></i> NFL TV - raiders | HD</li>
 </a>
 `;
-for (const ele of document.getElementsByClassName("nfl-raiders")){ele.innerHTML=(NFLraiders)}
+for (const ele of document.getElementsByClassName("nftv-raiders")){ele.innerHTML=(NFLraiders)}
 
 let NFLdolphins = `
 <a href="http://slowdsports.000webhostapp.com/nfl.html?src=dolphins">
@@ -116,7 +116,7 @@ let NFLdolphins = `
 <i class="us flag"></i> NFL TV - dolphins | HD</li>
 </a>
 `;
-for (const ele of document.getElementsByClassName("nfl-dolphins")){ele.innerHTML=(NFLdolphins)}
+for (const ele of document.getElementsByClassName("nftv-dolphins")){ele.innerHTML=(NFLdolphins)}
 
 let NFLbears = `
 <a href="http://slowdsports.000webhostapp.com/nfl.html?src=bears">
@@ -124,7 +124,7 @@ let NFLbears = `
 <i class="us flag"></i> NFL TV - bears | HD</li>
 </a>
 `;
-for (const ele of document.getElementsByClassName("nfl-bears")){ele.innerHTML=(NFLbears)}
+for (const ele of document.getElementsByClassName("nftv-bears")){ele.innerHTML=(NFLbears)}
 
 let NFLbroncos = `
 <a href="http://slowdsports.000webhostapp.com/nfl.html?src=broncos">
@@ -132,7 +132,7 @@ let NFLbroncos = `
 <i class="us flag"></i> NFL TV - broncos | HD</li>
 </a>
 `;
-for (const ele of document.getElementsByClassName("nfl-broncos")){ele.innerHTML=(NFLbroncos)}
+for (const ele of document.getElementsByClassName("nftv-broncos")){ele.innerHTML=(NFLbroncos)}
 
 let NFLlions = `
 <a href="http://slowdsports.000webhostapp.com/nfl.html?src=lions">
@@ -140,7 +140,7 @@ let NFLlions = `
 <i class="us flag"></i> NFL TV - lions | HD</li>
 </a>
 `;
-for (const ele of document.getElementsByClassName("nfl-lions")){ele.innerHTML=(NFLlions)}
+for (const ele of document.getElementsByClassName("nftv-lions")){ele.innerHTML=(NFLlions)}
 
 let NFLvikings = `
 <a href="http://slowdsports.000webhostapp.com/nfl.html?src=vikings">
@@ -148,7 +148,7 @@ let NFLvikings = `
 <i class="us flag"></i> NFL TV - vikings | HD</li>
 </a>
 `;
-for (const ele of document.getElementsByClassName("nfl-vikings")){ele.innerHTML=(NFLvikings)}
+for (const ele of document.getElementsByClassName("nftv-vikings")){ele.innerHTML=(NFLvikings)}
 
 let NFLpatriots = `
 <a href="http://slowdsports.000webhostapp.com/nfl.html?src=patriots">
@@ -156,7 +156,7 @@ let NFLpatriots = `
 <i class="us flag"></i> NFL TV - patriots | HD</li>
 </a>
 `;
-for (const ele of document.getElementsByClassName("nfl-patriots")){ele.innerHTML=(NFLpatriots)}
+for (const ele of document.getElementsByClassName("nftv-patriots")){ele.innerHTML=(NFLpatriots)}
 
 let NFLsf49ers = `
 <a href="http://slowdsports.000webhostapp.com/nfl.html?src=sf49ers">
@@ -164,7 +164,7 @@ let NFLsf49ers = `
 <i class="us flag"></i> NFL TV - 49ers | HD</li>
 </a>
 `;
-for (const ele of document.getElementsByClassName("nfl-sf49ers")){ele.innerHTML=(NFLsf49ers)}
+for (const ele of document.getElementsByClassName("nftv-sf49ers")){ele.innerHTML=(NFLsf49ers)}
 
 let NFLpanthers = `
 <a href="http://slowdsports.000webhostapp.com/nfl.html?src=panthers">
@@ -172,7 +172,7 @@ let NFLpanthers = `
 <i class="us flag"></i> NFL TV - panthers | HD</li>
 </a>
 `;
-for (const ele of document.getElementsByClassName("nfl-panthers")){ele.innerHTML=(NFLpanthers)}
+for (const ele of document.getElementsByClassName("nftv-panthers")){ele.innerHTML=(NFLpanthers)}
 
 let NFLeagles = `
 <a href="http://slowdsports.000webhostapp.com/nfl.html?src=eagles">
@@ -180,7 +180,7 @@ let NFLeagles = `
 <i class="us flag"></i> NFL TV - eagles | HD</li>
 </a>
 `;
-for (const ele of document.getElementsByClassName("nfl-eagles")){ele.innerHTML=(NFLeagles)}
+for (const ele of document.getElementsByClassName("nftv-eagles")){ele.innerHTML=(NFLeagles)}
 
 let NFLfalcons = `
 <a href="http://slowdsports.000webhostapp.com/nfl.html?src=falcons">
@@ -188,7 +188,7 @@ let NFLfalcons = `
 <i class="us flag"></i> NFL TV - falcons | HD</li>
 </a>
 `;
-for (const ele of document.getElementsByClassName("nfl-falcons")){ele.innerHTML=(NFLfalcons)}
+for (const ele of document.getElementsByClassName("nftv-falcons")){ele.innerHTML=(NFLfalcons)}
 
 let NFLcowboys = `
 <a href="http://slowdsports.000webhostapp.com/nfl.html?src=cowboys">
@@ -196,7 +196,7 @@ let NFLcowboys = `
 <i class="us flag"></i> NFL TV - cowboys | HD</li>
 </a>
 `;
-for (const ele of document.getElementsByClassName("nfl-cowboys")){ele.innerHTML=(NFLcowboys)}
+for (const ele of document.getElementsByClassName("nftv-cowboys")){ele.innerHTML=(NFLcowboys)}
 
 let NFLtexans = `
 <a href="http://slowdsports.000webhostapp.com/nfl.html?src=texans">
@@ -204,7 +204,7 @@ let NFLtexans = `
 <i class="us flag"></i> NFL TV - texans | HD</li>
 </a>
 `;
-for (const ele of document.getElementsByClassName("nfl-texans")){ele.innerHTML=(NFLtexans)}
+for (const ele of document.getElementsByClassName("nftv-texans")){ele.innerHTML=(NFLtexans)}
 
 let NFLchargers = `
 <a href="http://slowdsports.000webhostapp.com/nfl.html?src=chargers">
@@ -212,7 +212,7 @@ let NFLchargers = `
 <i class="us flag"></i> NFL TV - chargers | HD</li>
 </a>
 `;
-for (const ele of document.getElementsByClassName("nfl-chargers")){ele.innerHTML=(NFLchargers)}
+for (const ele of document.getElementsByClassName("nftv-chargers")){ele.innerHTML=(NFLchargers)}
 
 let NFLgiants = `
 <a href="http://slowdsports.000webhostapp.com/nfl.html?src=giants">
@@ -220,7 +220,7 @@ let NFLgiants = `
 <i class="us flag"></i> NFL TV - giants | HD</li>
 </a>
 `;
-for (const ele of document.getElementsByClassName("nfl-giants")){ele.innerHTML=(NFLgiants)}
+for (const ele of document.getElementsByClassName("nftv-giants")){ele.innerHTML=(NFLgiants)}
 
 let NFLwashington = `
 <a href="http://slowdsports.000webhostapp.com/nfl.html?src=washington">
@@ -228,7 +228,7 @@ let NFLwashington = `
 <i class="us flag"></i> NFL TV - washington | HD</li>
 </a>
 `;
-for (const ele of document.getElementsByClassName("nfl-washington")){ele.innerHTML=(NFLwashington)}
+for (const ele of document.getElementsByClassName("nftv-washington")){ele.innerHTML=(NFLwashington)}
 
 let NFLbengals = `
 <a href="http://slowdsports.000webhostapp.com/nfl.html?src=bengals">
@@ -236,7 +236,7 @@ let NFLbengals = `
 <i class="us flag"></i> NFL TV - bengals | HD</li>
 </a>
 `;
-for (const ele of document.getElementsByClassName("nfl-bengals")){ele.innerHTML=(NFLbengals)}
+for (const ele of document.getElementsByClassName("nftv-bengals")){ele.innerHTML=(NFLbengals)}
 
 let NFLjaguars = `
 <a href="http://slowdsports.000webhostapp.com/nfl.html?src=jaguars">
@@ -244,7 +244,7 @@ let NFLjaguars = `
 <i class="us flag"></i> NFL TV - jaguars | HD</li>
 </a>
 `;
-for (const ele of document.getElementsByClassName("nfl-jaguars")){ele.innerHTML=(NFLjaguars)}
+for (const ele of document.getElementsByClassName("nftv-jaguars")){ele.innerHTML=(NFLjaguars)}
 
 let NFLjets = `
 <a href="http://slowdsports.000webhostapp.com/nfl.html?src=jets">
@@ -252,4 +252,4 @@ let NFLjets = `
 <i class="us flag"></i> NFL TV - jets | HD</li>
 </a>
 `;
-for (const ele of document.getElementsByClassName("nfl-jets")){ele.innerHTML=(NFLjets)}
+for (const ele of document.getElementsByClassName("nftv-jets")){ele.innerHTML=(NFLjets)}
