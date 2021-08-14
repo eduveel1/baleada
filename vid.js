@@ -54,7 +54,9 @@ let l8 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let l9 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let l10 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 // O T S
-let tigohn = "https://d20tezjrkz1zmc.cloudfront.net/out/v1/70c5e7b2534245f69d923065ffefd6d2/index.m3u8";
+let hn1 = "";
+let hn2 = "";
+let hn3 = "";
 
 // FS
 var elem = document.getElementById("vidarea");
