@@ -56,6 +56,18 @@ let l10 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 // O T S
 let tigohn = "https://d20tezjrkz1zmc.cloudfront.net/out/v1/70c5e7b2534245f69d923065ffefd6d2/index.m3u8";
 
+// FS
+var elem = document.getElementById("vidarea");
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) { /* Safari */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE11 */
+    elem.msRequestFullscreen();
+  }
+}
+
 function getParameterByName(name) {
                       name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
                       var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
