@@ -51,7 +51,8 @@ let ch47 = srv + "47" + srvh;
 let ch48 = srv + "48" + srvh; let foxa = ch48;
 let ch49 = srv + "49" + srvh; 
 let ch50 = srv + "50" + srvh;
-let ch50 = srv + "60" + srvh; let barsd = ch60;
+let ch60 = srv + "60" + srvh; let barsd = ch60;
+
 
 // P O T C L L
 let potclla = "//"+"pho"+"toc"+"all"+"."+"tv"; let potcllb = "/"+"ftv"+"."+"m3"+"u8";
