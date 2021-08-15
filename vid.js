@@ -11,7 +11,7 @@ let p9 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let p10 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 // L L S
 let c1 = "http://206.189.30.73/live/ovochannel2/playlist.m3u8";
-let c2 = "http://167.99.203.77/live/ovochannel1/playlist.m3u8";
+let c2 = "https://d18wuqb33xq9fu.cloudfront.net/out/v1/65f0f6c5465044b584bdeb1c039b9ed3/index.m3u8";
 let c3 = "http://167.99.203.77/live/ovochannel2/playlist.m3u8";
 let c4 = "http://159.65.82.57/live/ovochannel1/playlist.m3u8";
 let c5 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
