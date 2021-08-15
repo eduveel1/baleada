@@ -1,5 +1,5 @@
 // S E R V E R
-let srva = "http:"; let srvb = "//5.9.104.206"; let srvc = ":2536"; let srvd = "/live"; let srve = "/irafflecast"; let key = "/vs9r"; let srvg = "/"; let srvh = "." + "m3" + "u8";
+let srva = "http:"; let srvb = "//5.9.104.206"; let srvc = ":2536"; let srvd = "/live"; let srve = "/irafflecast"; let key = "/vs4r"; let srvg = "/"; let srvh = "." + "m3" + "u8";
 let srv = srva + srvb + srvc + srvd + srve + key + srvg;
 let ch1 = srv + "1" + srvh; let bar = ch1;
 let ch2 = srv + "2" + srvh; let mlaliga1 = ch2;
@@ -51,6 +51,7 @@ let ch47 = srv + "47" + srvh;
 let ch48 = srv + "48" + srvh; let foxa = ch48;
 let ch49 = srv + "49" + srvh; 
 let ch50 = srv + "50" + srvh;
+let ch50 = srv + "60" + srvh; let barsd = ch60;
 
 // P O T C L L
 let potclla = "//"+"pho"+"toc"+"all"+"."+"tv"; let potcllb = "/"+"ftv"+"."+"m3"+"u8";
@@ -170,6 +171,8 @@ function getParameterByName(name) {
         if (getURL == "ch48") {getURL = foxa;}
         if (getURL == "49") {getURL = ch49;}
         if (getURL == "50") {getURL = ch50;}
+        if (getURL == "barsd") {getURL = ch60;}
+        if (getURL == "ch60") {getURL = barsd;}
         // P O T C L L
         if (getURL == "itv") {getURL = itv;}
         if (getURL == "itv2") {getURL = itv2;}

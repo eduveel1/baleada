@@ -1,0 +1,50 @@
+<script>
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
+  
+    if(mm == 1){
+        mm = "Enero";
+    }
+
+    else if (m == 2) {
+        mm = "Febrero";
+    }
+//    else if (m == 3) {
+//        mm = "Marzo";
+//    }
+//    else if (m == 4) {
+//        mm = "Abril";
+//    }
+//    else if (m == 5) {
+//        mm = "Mayo";
+//    }
+//    else if (m == 6) {
+//        mm = "Junio";
+//    }
+//    else if (m == 7) {
+//        mm = "Julio";
+//    }
+//    else if (m == 8) {
+//        mm = "Agosto";
+//    }
+//    else if (m == 9) {
+//        mm = "Septiembre";
+//    }
+//    else if (m == 10) {
+//        mm = "Octubre";
+//    }
+//    else if (m == 11) {
+//        mm = "Noviembre";
+//    }
+//    else if (m == 12) {
+//        mm = "Diciembre";
+//    }
+    else{
+        mm = "";
+    }
+    
+today = mm + '/' + dd + '/' + yyyy;
+document.write(today);
+</script>
