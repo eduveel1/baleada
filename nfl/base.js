@@ -35,6 +35,7 @@ window.onload = function() {
 
 let ml0 = "http://g.givemenbastreams.com/hls/";
 let ml1 = "/playlist.m3u8";
+
 let steelers = ml0+"steelers"+ml1;
 let chiefs = "https://d1n43vzznvjiyd.cloudfront.net/out/v1/15acdd2e39674cda9398a4b18369fdae/index.m3u8";
 let saints = "https://d16dpravg6xcg4.cloudfront.net/out/v1/3dd75dd88807428d8d8e067325463d87/index.m3u8";
