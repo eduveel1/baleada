@@ -79,7 +79,7 @@ let MLByankees = `
 for(const ele of document.getElementsByClassName("mltv-yankees")){ele.innerHTML=(MLByankees)};
 
 let MLBreds = `
-<a href="go:s6">
+<a href="http://slowdsports.000webhostapp.com/mlb.html?src=reds">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> MLB TV - reds | HD</li>
 </a>
