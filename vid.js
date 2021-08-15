@@ -1,5 +1,5 @@
 // E P L
-let p1 = "http://167.99.195.178/live/ovochannel1/playlist.m3u8";
+let p1 = "https://wowzaprodhd8-lh.akamaihd.net/i/ddd89e1c_1@10089/master.m3u8";
 let p2 = "http://206.189.22.136/live/ovochannel1/playlist.m3u8";
 let p3 = "https://wowzaprodhd50-lh.akamaihd.net/i/59d26aab_1@26065/master.m3u8";
 let p4 = "http://167.99.195.178/live/ovochannel3/playlist.m3u8";
