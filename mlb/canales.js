@@ -143,7 +143,7 @@ let MLBcardinals = `
 for(const ele of document.getElementsByClassName("mltv-cardinals")){ele.innerHTML=(MLBcardinals)};
 
 let MLBindians = `
-<a href="go:s6">
+<a href="http://slowdsports.000webhostapp.com/mlb.html?src=indians">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> MLB TV - indians | HD</li>
 </a>
