@@ -50,7 +50,11 @@ let ch46 = srv + "46" + srvh; let win = ch46;
 let ch47 = srv + "47" + srvh; 
 let ch48 = srv + "48" + srvh; let foxa = ch48;
 let ch49 = srv + "49" + srvh; 
-let ch50 = srv + "50" + srvh;
+let ch50 = srv + "50" + srvh; 
+let ch50 = srv + "51" + srvh; let mlcamp = ch48;
+let ch50 = srv + "52" + srvh; let mlcamp1 = ch48;
+let ch50 = srv + "53" + srvh; let mlcamp2 = ch48;
+let ch50 = srv + "54" + srvh; let mlcamp3 = ch48;
 let ch60 = srv + "60" + srvh; let barsd = ch60;
 
 
@@ -172,6 +176,14 @@ function getParameterByName(name) {
         if (getURL == "ch48") {getURL = foxa;}
         if (getURL == "49") {getURL = ch49;}
         if (getURL == "50") {getURL = ch50;}
+        if (getURL == "mlcamp") {getURL = ch51;}
+        if (getURL == "ch51") {getURL = mlcamp;}
+        if (getURL == "mlcamp1") {getURL = ch52;}
+        if (getURL == "ch52") {getURL = mlcamp1;}
+        if (getURL == "mlcamp2") {getURL = ch53;}
+        if (getURL == "ch53") {getURL = mlcamp2;}
+        if (getURL == "mlcamp3") {getURL = ch54;}
+        if (getURL == "ch54") {getURL = mlcamp3;}
         if (getURL == "barsd") {getURL = ch60;}
         if (getURL == "ch60") {getURL = barsd;}
         // P O T C L L
