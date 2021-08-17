@@ -1,5 +1,5 @@
 // S E R V E R
-let srva = "http:"; let srvb = "//5.9.104.206"; let srvc = ":2536"; let srvd = "/live"; let srve = "/irafflecast"; let key = "/vs4r"; let srvg = "/"; let srvh = "." + "m3" + "u8";
+let srva = "http:"; let srvb = "//5.9.104.206"; let srvc = ":2536"; let srvd = "/live"; let srve = "/irafflecast"; let key = "/vs2r"; let srvg = "/"; let srvh = "." + "m3" + "u8";
 let srv = srva + srvb + srvc + srvd + srve + key + srvg;
 let ch1 = srv + "1" + srvh; let bar = ch1;
 let ch2 = srv + "2" + srvh; let mlaliga1 = ch2;
