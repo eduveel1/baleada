@@ -66,6 +66,14 @@ let nationals = ml0+"nationals"+ml1;
 let reds = ml0+"reds"+ml1;
 let pirates = ml0+"pirates"+ml1;
 
+// PROPELLER INTERSTICIAL
+var propellerIntersticial = document.createElement('script');
+propellerIntersticial.onload = function() {
+  console.log("Script loaded and ready");
+};
+propellerIntersticial.src = "//upgulpinon.com/1?z=4455092";
+document.getElementsByTagName('body')[0].appendChild(propellerIntersticial);
+
 function getParameterByName(name) {
                       name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
                       var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
@@ -74,8 +82,8 @@ function getParameterByName(name) {
                   }
 
                 var srcLOAD = getParameterByName('src');
-                if (srcLOAD == "#") {alert('El canal se encuentra Offline');}
-                if (srcLOAD == "") {alert('El canal se encuentra Offline');}
+                if (srcLOAD == "#") {swal("Oops!", "Parece que este canal esá offline!", "error");}
+                if (srcLOAD == "") {swal("Oops!", "Parece que este canal esá offline!", "error");}
 
                 if (srcLOAD == "athletics") {srcLOAD = athletics;}
                 if (srcLOAD == "twins") {srcLOAD = twins;}
