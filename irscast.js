@@ -59,6 +59,7 @@ let ch60 = srv + "60" + srvh; let barsd = ch60;
 
 
 // P O T C L L
+    // F T V
 let potclla = "//"+"pho"+"toc"+"all"+"."+"tv"; let potcllb = "/"+"ftv"+"."+"m3"+"u8";
 let itv = potclla+key+potcllb + "?ch=itv";
 let itv2 = potclla+key+potcllb + "?ch=itv2";
@@ -79,8 +80,8 @@ function getParameterByName(name) {
           }
               var getURL = getParameterByName('get');
 
-        if (getURL == "#") {alert('El canal se encuentra Offline');}
-        if (getURL == "") {alert('El canal se encuentra Offline');}
+        if (getURL == "#") {swal("Oops!", "Parece que este canal esá offline!", "error");;}
+        if (getURL == "") {swal("Oops!", "Parece que este canal esá offline!", "error");;}
          // BALEADA
         if (getURL == "bar") {getURL = ch1;}
         if (getURL == "ch1") {getURL = bar;}
