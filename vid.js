@@ -70,6 +70,14 @@ function openFullscreen() {
   }
 }
 
+// PROPELLER INTERSTICIAL
+var propellerIntersticial = document.createElement('script');
+propellerIntersticial.onload = function() {
+  console.log("Script loaded and ready");
+};
+propellerIntersticial.src = "//upgulpinon.com/1?z=4455092";
+document.getElementsByTagName('body')[0].appendChild(propellerIntersticial);
+
 function getParameterByName(name) {
                       name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
                       var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
@@ -77,9 +85,9 @@ function getParameterByName(name) {
                       return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
                   }
 
-        var srcLOAD = getParameterByName('src');
-                if (srcLOAD == "#") {alert('El canal se encuentra Offline');}
-                if (srcLOAD == "") {alert('El canal se encuentra Offline');}
+                var srcLOAD = getParameterByName('src');
+                if (srcLOAD == "#") {swal("Oops!", "Parece que este canal esá offline!", "error");}
+                if (srcLOAD == "") {swal("Oops!", "Parece que este canal esá offline!", "error");}
                 // E P L
                 if (srcLOAD == "p1") {srcLOAD = p1;}
                 if (srcLOAD == "p2") {srcLOAD = p2;}
