@@ -28,7 +28,7 @@ window.onload = function() {
                           };
                           player.configure({
                             autoPlay: true,
-                            source: srcError,
+                            source: src,
                             playbackNotSupportedMessage: 'Network fatal error.' + ((r > 0)
                                 ? ' Retrying in <span id="retryCounter"></span> seconds ...'
                                 : ' All retry attempts failed'),
