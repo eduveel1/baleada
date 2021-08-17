@@ -100,9 +100,21 @@ function getParameterByName(name) {
                 var src = getParameterByName('src');
                 if (src == "#") {swal("Oops!", "Parece que este canal esá offline!", "error");;}
                 if (src == "") {swal("Oops!", "Parece que este canal esá offline!", "error");;}
-                if (src == "ondacero") {src = ondaceroURL; poster = ondaceroIMG;}
-                if (src == "cope") {src = copeURL; poster = copeIMG;}
-                if (src == "rne") {src = rneURL; poster = rneIMG;}
-                if (src == "rmarca") {src = rmarcaURL; poster = rmarcaIMG;}
-                if (src == "ser") {src = serURL; poster = serIMG}
-                if (src == "cadenaser") {src = serURL; poster = serIMG}
+                if (src == "ondacero") 
+                {src = ondaceroURL; poster = ondaceroIMG;
+                swal("Puedes escuchar el programa en seguno plano!", "Solamente regresa al inicio de tu móvil. Seguirás escuchando el contenido!", "info");}
+                if (src == "cope") 
+                {src = copeURL; poster = copeIMG;
+                swal("Puedes escuchar el programa en seguno plano!", "Solamente regresa al inicio de tu móvil. Seguirás escuchando el contenido!", "info");}
+                if (src == "rne") 
+                {src = rneURL; poster = rneIMG;
+                swal("Puedes escuchar el programa en seguno plano!", "Solamente regresa al inicio de tu móvil. Seguirás escuchando el contenido!", "info");}
+                if (src == "rmarca") 
+                {src = rmarcaURL; poster = rmarcaIMG;
+                swal("Puedes escuchar el programa en seguno plano!", "Solamente regresa al inicio de tu móvil. Seguirás escuchando el contenido!", "info");}
+                if (src == "ser") 
+                {src = serURL; poster = serIMG; 
+                swal("Puedes escuchar el programa en seguno plano!", "Solamente regresa al inicio de tu móvil. Seguirás escuchando el contenido!", "info");}
+                if (src == "cadenaser") 
+                {src = serURL; poster = serIMG
+                swal("Puedes escuchar el programa en seguno plano!", "Solamente regresa al inicio de tu móvil. Seguirás escuchando el contenido!", "info");}
