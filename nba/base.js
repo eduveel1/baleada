@@ -8,6 +8,14 @@ let nba4 = "http://cbsnhls-i.akamaihd.net/hls/live/264710/CBSN_mdialog/prodstrea
 let nba5 = "http://cbsnhls-i.akamaihd.net/hls/live/264710/CBSN_mdialog/prodstream/master.m3u8";
 let nba6 = "http://cbsnhls-i.akamaihd.net/hls/live/264710/CBSN_mdialog/prodstream/master.m3u8";
 
+// PROPELLER INTERSTICIAL
+var propellerIntersticial = document.createElement('script');
+propellerIntersticial.onload = function() {
+  console.log("Script loaded and ready");
+};
+propellerIntersticial.src = "//upgulpinon.com/1?z=4455092";
+document.getElementsByTagName('body')[0].appendChild(propellerIntersticial);
+
 function getParameterByName(name) {
                       name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
                       var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
@@ -15,9 +23,9 @@ function getParameterByName(name) {
                       return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
                   }
 
-        var srcLOAD = getParameterByName('src');
-                if (srcLOAD == "#") {alert('El canal se encuentra Offline');}
-                if (srcLOAD == "") {alert('El canal se encuentra Offline');}
+                var srcLOAD = getParameterByName('src');
+                if (srcLOAD == "#") {swal("Oops!", "Parece que este canal esá offline!", "error");}
+                if (srcLOAD == "") {swal("Oops!", "Parece que este canal esá offline!", "error");}
 
                 if (srcLOAD == "nba1") {srcLOAD = nba1;}
                 if (srcLOAD == "nba2") {srcLOAD = nba2;}

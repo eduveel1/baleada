@@ -68,6 +68,14 @@ let bengals = "https://d1xzzdlpcs8bl4.cloudfront.net/out/v1/aaf9a4a1b6174fb1bb37
 let jaguars = ml0+"jaguars"+ml1;
 let jets = "https://d1n43vzznvjiyd.cloudfront.net/out/v1/15acdd2e39674cda9398a4b18369fdae/index.m3u8";
 
+// PROPELLER INTERSTICIAL
+var propellerIntersticial = document.createElement('script');
+propellerIntersticial.onload = function() {
+  console.log("Script loaded and ready");
+};
+propellerIntersticial.src = "//upgulpinon.com/1?z=4455092";
+document.getElementsByTagName('body')[0].appendChild(propellerIntersticial);
+
 function getParameterByName(name) {
                       name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
                       var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
@@ -76,8 +84,8 @@ function getParameterByName(name) {
                   }
 
                 var srcLOAD = getParameterByName('src');
-                if (srcLOAD == "#") {alert('El canal se encuentra Offline');}
-                if (srcLOAD == "") {alert('El canal se encuentra Offline');}
+                if (srcLOAD == "#") {swal("Oops!", "Parece que este canal esá offline!", "error");}
+                if (srcLOAD == "") {swal("Oops!", "Parece que este canal esá offline!", "error");}
 
                 if (srcLOAD == "steelers") {srcLOAD = steelers;}
                 if (srcLOAD == "chiefs") {srcLOAD = chiefs;}
