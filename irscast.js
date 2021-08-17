@@ -72,6 +72,14 @@ let bbcone = potclla+key+potcllb + "?ch=bbcone";
 let bbctwo = potclla+key+potcllb + "?ch=bbctwo";
 let bbcfour = potclla+key+potcllb + "?ch=bbcfour";
 
+// PROPELLER INTERSTICIAL
+var propellerIntersticial = document.createElement('script');
+propellerIntersticial.onload = function() {
+  console.log("Script loaded and ready");
+};
+propellerIntersticial.src = "//upgulpinon.com/1?z=4455092";
+document.getElementsByTagName('body')[0].appendChild(propellerIntersticial);
+
 function getParameterByName(name) {
               name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
               var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
@@ -80,8 +88,8 @@ function getParameterByName(name) {
           }
               var getURL = getParameterByName('get');
 
-        if (getURL == "#") {swal("Oops!", "Parece que este canal esá offline!", "error");;}
-        if (getURL == "") {swal("Oops!", "Parece que este canal esá offline!", "error");;}
+        if (getURL == "#") {swal("Oops!", "Parece que este canal esá offline!", "error");}
+        if (getURL == "") {swal("Oops!", "Parece que este canal esá offline!", "error");}
          // BALEADA
         if (getURL == "bar") {getURL = ch1;}
         if (getURL == "ch1") {getURL = bar;}
