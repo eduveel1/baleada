@@ -79,17 +79,17 @@ var srcError = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 var ondaceroURL = "https://livefastly-webs.ondacero.es/ondacero/audio/master.m3u8";
 var ondaceroIMG = "https://statics.atresmedia.com/ondacero/webapp/static/media/logotipo.2372dfc4.svg";
 
-//var copeURL = "http://flucast-b02-03.flumotion.com/cope/net1.mp3";
-//var copeIMG = "https://static1.abc.es/media/espana/2021/05/11/herrera-cope-khxB--1024x512@abc.jpg";
-//
-//var rneURL = "https://rtvelivestreamv3.akamaized.net/rne_r1_main.m3u8";
-//var rneIMG = "https://estaticos.muyhistoria.es/uploads/images/article/587f30655cafe82615f7b00b/c-radio-nacional-de-espana_0.jpg";
-//
-//var rmarcaURL = "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONAL.mp3";
-//var rmarcaIMG = "https://e00-marca.uecdn.es/imagenes/2015/11/03/mundomarca/1446557292_extras_noticia_foton_7_1.jpg";
-//
-//var serURL = "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENASER.mp3";
-//var serIMG = "https://cadenaser00.epimg.net/iconos/v1.x/v1.0/redes/imagenes_og/programas_v2/ser_generico_imagen_control.jpg";
+var copeURL = "http://flucast-b02-03.flumotion.com/cope/net1.mp3";
+var copeIMG = "https://static1.abc.es/media/espana/2021/05/11/herrera-cope-khxB--1024x512@abc.jpg";
+
+var rneURL = "https://rtvelivestreamv3.akamaized.net/rne_r1_main.m3u8";
+var rneIMG = "https://estaticos.muyhistoria.es/uploads/images/article/587f30655cafe82615f7b00b/c-radio-nacional-de-espana_0.jpg";
+
+var rmarcaURL = "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONAL.mp3";
+var rmarcaIMG = "https://e00-marca.uecdn.es/imagenes/2015/11/03/mundomarca/1446557292_extras_noticia_foton_7_1.jpg";
+
+var serURL = "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENASER.mp3";
+var serIMG = "https://cadenaser00.epimg.net/iconos/v1.x/v1.0/redes/imagenes_og/programas_v2/ser_generico_imagen_control.jpg";
 
 function getParameterByName(name) {
                       name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
@@ -97,7 +97,6 @@ function getParameterByName(name) {
                           results = regex.exec(location.search);
                       return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
                   }
-
                 var src = getParameterByName('src');
                 if (src == "#") {swal("Oops!", "Parece que este canal esá offline!", "error");;}
                 if (src == "") {swal("Oops!", "Parece que este canal esá offline!", "error");;}
