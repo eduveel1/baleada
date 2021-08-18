@@ -1,3 +1,7 @@
+// DIABLE HTTPS
+if (location.protocol == 'https:') {
+    location.replace(`http:${location.href.substring(location.protocol.length)}`);
+}
 // PROPELLER INTERSTICIAL
 var propellerIntersticial = document.createElement('script');
 propellerIntersticial.onload = function() {
