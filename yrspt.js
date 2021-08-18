@@ -40,6 +40,8 @@ let telecadena = "//dailymotion.com/embed/video/k1fuFbqqr7UftiwnPY7?autoplay=1";
 let tvcdeportes = "//dailymotion.com/embed/video/k47r4gXKjUTXzNwHsoc?autoplay=1";
 let tudnif = "//futbollibre.net/en-vivo/tudn/embed.html?";
 
+swal("¿El contenido no reproduce?", "Utiliza Google Chrome!", "success");
+
 function getParameterByName(name) {
                       name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
                       var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
