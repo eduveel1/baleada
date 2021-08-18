@@ -80,9 +80,6 @@ let bbcfour = potclla+key+potcllb + "?ch=bbcfour";
 //propellerIntersticial.src = "//upgulpinon.com/1?z=4455092";
 //document.getElementsByTagName('body')[0].appendChild(propellerIntersticial);
 
-let vid = document.getElementById('vidarea');
-vid.src = getURL;
-
 function getParameterByName(name) {
               name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
               var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
