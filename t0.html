@@ -2,12 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>iRaffle Sports Cast</title>
+    <style>.row{position: fixed; z-index: 1;}a * {display: none;}.swal-modal{background-color: #58555A;}.swal-title , .swal-text{color: #fff;} </style>
 </head>
+<body bgcolor='black' style='margin:0' oncontextmenu='return false' onkeydown='return false'>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <script src="irscast.js"></script>
-<body>
-    <video id="vidarea" class="video-js vjs-default-skin" width="100%" height="100%" controls autoplay></video>
+<script src="ads.js"></script>
+    <video id="vidarea"></video>
+    <script>
+    swal({
+          title: "Este contenido no reproducirá al menos que utilices Web Caster para enviar el contenido a tu TV.",
+          text: "iRaffle Sports Team",
+          icon: "info",
+          closeOnClickOutside: false,
+          closeOnEsc: false,
+        });
+    </script>
     <script>
     var link = getURL;    
     var vid = document.getElementById("vidarea");
