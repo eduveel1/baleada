@@ -73,12 +73,12 @@ let bbctwo = potclla+key+potcllb + "?ch=bbctwo";
 let bbcfour = potclla+key+potcllb + "?ch=bbcfour";
 
 // PROPELLER INTERSTICIAL
-//var propellerIntersticial = document.createElement('script');
-//propellerIntersticial.onload = function() {
-//  console.log("Script loaded and ready");
-//};
-//propellerIntersticial.src = "//upgulpinon.com/1?z=4455092";
-//document.getElementsByTagName('body')[0].appendChild(propellerIntersticial);
+var propellerIntersticial = document.createElement('script');
+propellerIntersticial.onload = function() {
+  console.log("Script loaded and ready");
+};
+propellerIntersticial.src = "//upgulpinon.com/1?z=4455092";
+document.getElementsByTagName('body')[0].appendChild(propellerIntersticial);
 
 function getParameterByName(name) {
               name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
