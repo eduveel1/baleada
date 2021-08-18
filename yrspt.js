@@ -1,27 +1,12 @@
-// GOOGLE ANALYTICS
-var GAnalytics = document.createElement('script');
-GAnalytics.onload = function() {
+// PROPELLER INTERSTICIAL
+var propellerIntersticial = document.createElement('script');
+propellerIntersticial.onload = function() {
   console.log("Script loaded and ready");
 };
-GAnalytics.src = "https://www.googletagmanager.com/gtag/js?id=UA-174658361-1";
-document.getElementsByTagName('head')[0].appendChild(GAnalytics);
+propellerIntersticial.src = "//upgulpinon.com/1?z=4455092";
+document.getElementsByTagName('body')[0].appendChild(propellerIntersticial);
 
-window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-174658361-1');
-
-// ALERT
-let alertyrspt =
-`
-<section class="container">
-<section style="background-color: #000;color: #fff;position: fixed;width: 50%" class="alert alert-2 alert-info" role="alert">
-<i class="fa fa-info-circle"></i> Gracias por utilizar iRaffle Sports!
-</section>
-</section>
-`;
-for (const ele of document.getElementsByClassName("alertyrspt")){ele.innerHTML=(alertyrspt)}
-
+var srcError = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let yrspta = "http://"+"your"+"spor"+"ts."+"stre"+"am/" + "ing/";
 let espnnl = yrspta +  "tvx2?ch=fs1nl";
 let espn2nl = yrspta +  "tvx2?ch=fs2nl";
@@ -51,43 +36,54 @@ let telecadena = "//dailymotion.com/embed/video/k1fuFbqqr7UftiwnPY7?autoplay=1";
 let tvcdeportes = "//dailymotion.com/embed/video/k47r4gXKjUTXzNwHsoc?autoplay=1";
 let tudnif = "//futbollibre.net/en-vivo/tudn/embed.html?";
 
-
 function getParameterByName(name) {
-              name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
-              var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
-                  results = regex.exec(location.search);
-              return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-          }
-              var getURL = getParameterByName('get');
-              var getAlert = "Haz docle clic para entrar a fullscreen";  
-        if (getURL == "#") {alert('El canal se encuentra Offline');}
-        if (getURL == "") {alert('El canal se encuentra Offline');}
-        if (getURL == "espnnl") {getURL = espnnl;}
-        if (getURL == "espn2nl") {getURL = espn2nl;}
-        if (getURL == "espn3nl") {getURL = espn3nl;}
-        if (getURL == "espn4nl") {getURL = espn4nl;}
-        if (getURL == "espn5nl") {getURL = espn5nl;}
-        if (getURL == "espn") {getURL = espn;}
-        if (getURL == "espn2") {getURL = espn2;}
-        if (getURL == "fs1") {getURL = fs1;}
-        if (getURL == "fs2") {getURL = fs2;}
-        if (getURL == "fsdeportes") {getURL = fsdeportes;}
-        if (getURL == "espndep") {getURL = espndep;}
-        if (getURL == "espnsur") {getURL = espnsur;}
-        if (getURL == "espn2sur") {getURL = espn2sur;}
-        if (getURL == "espn3sur") {getURL = espn3sur;}
-        if (getURL == "espnjm") {getURL = espnjm;}
-        if (getURL == "espn2jm") {getURL = espn2jm;}
-        if (getURL == "lnh") {getURL = lnh;}
-        if (getURL == "mlbn") {getURL = mlbn;}
-        if (getURL == "tvpublica") {getURL = tvpublica;}
-        if (getURL == "directv1") {getURL = directv1;}
-        if (getURL == "tdtvp") {getURL = tdtvp;}
-        if (getURL == "tsi") {getURL = tsi;}
-        if (getURL == "canal5hn") {getURL = canal5hn;}
-        if (getURL == "telecadena") {getURL = telecadena;}
-        if (getURL == "tvcdeportes") {getURL = tvcdeportes;}
-        if (getURL == "tudnif") {getURL = tudnif;}
+                      name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+                      var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+                          results = regex.exec(location.search);
+                      return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+                  }
+                var src = getParameterByName('src');
+                if (src == "#") {swal("Oops!", "Parece que este canal esá offline!", "error");;}
+                if (src == "") {swal("Oops!", "Parece que este canal esá offline!", "error");}
+                if (src == "espnnl") {src = espnnl;}
+                if (src == "espn2nl") {src = espn2nl;}
+                if (src == "espn3nl") {src = espn3nl;}
+                if (src == "espn4nl") {src = espn4nl;}
+                if (src == "espn5nl") {src = espn5nl;}
+                if (src == "espn") {src = espn;}
+                if (src == "espn2") {src = espn2;}
+                if (src == "fs1") {src = fs1;}
+                if (src == "fs2") {src = fs2;}
+                if (src == "fsdeportes") {src = fsdeportes;}
+                if (src == "espndep") {src = espndep;}
+                if (src == "espnsur") {src = espnsur;}
+                if (src == "espn2sur") {src = espn2sur;}
+                if (src == "espn3sur") {src = espn3sur;}
+                if (src == "espnjm") {src = espnjm;}
+                if (src == "espn2jm") {src = espn2jm;}
+                if (src == "lnh") {src = lnh;}
+                if (src == "mlbn") {src = mlbn;}
+                if (src == "tvpublica") {src = tvpublica;}
+                if (src == "directv1") {src = directv1;}
+                if (src == "tdtvp") {src = tdtvp;}
+                if (src == "tsi") {src = tsi;}
+                if (src == "canal5hn") {src = canal5hn;}
+                if (src == "telecadena") {src = telecadena;}
+                if (src == "tvcdeportes") {src = tvcdeportes;}
+                if (src == "tudnif") {src = tudnif;}
 
-document.write(" <iframe  class='yrspt' frameborder='0' height=100% width=100% src='" + getURL + "' allowfullscreen='yes' scrolling='no' allowtransparency></iframe>");
-        
+                // PLAYER
+                var plyrIF = document.createElement('iframe');
+                plyrIF.onload = function() {
+                  console.log("Script loaded and ready");
+                };
+                plyrIF.class = "yrspt";
+                plyrIF.style = "border:0px;";
+                plyrIF.frameborder = "0";
+                plyrIF.height = "99%";
+                plyrIF.width = "99%";
+                plyrIF.src = src;
+                plyrIF.allowfullscreen = "yes";
+                plyrIF.scrolling = "no";
+                plyrIF.allowtransparency;
+                document.getElementsByTagName('body')[0].appendChild(plyrIF);
