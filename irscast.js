@@ -1,3 +1,7 @@
+// DIABLE HTTPS
+if (location.protocol == 'https:') {
+    location.replace(`http:${location.href.substring(location.protocol.length)}`);
+}
 // S E R V E R
 let srva = "http:"; let srvb = "//5.9.104.206"; let srvc = ":2536"; let srvd = "/live"; let srve = "/irafflecast"; let key = "/vs2r"; let srvg = "/"; let srvh = "." + "m3" + "u8";
 let srv = srva + srvb + srvc + srvd + srve + key + srvg;

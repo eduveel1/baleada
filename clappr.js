@@ -1,3 +1,7 @@
+// DIABLE HTTPS
+if (location.protocol == 'https:') {
+    location.replace(`http:${location.href.substring(location.protocol.length)}`);
+}
 //window.onload = function() {
 //             var player = new Clappr.Player({
 //                 source: srcLOAD,

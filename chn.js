@@ -1,3 +1,7 @@
+// DIABLE HTTPS
+if (location.protocol == 'https:') {
+    location.replace(`http:${location.href.substring(location.protocol.length)}`);
+}
 // F O X
 
 let fsoul = "//lnc-fox-soul-scte.tubi.video/index.m3u8";
