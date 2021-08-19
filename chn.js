@@ -71,8 +71,8 @@ function getParameterByName(name) {
           }
 
 var getURL = getParameterByName('get');
-        if (getURL == "#") {alert('El canal se encuentra Offline');}
-        if (getURL == "") {alert('El canal se encuentra Offline');}
+        if (getURL == "#") {swal("Oops!", "Parece que este canal esá offline!", "error");}
+        if (getURL == "") {swal("Oops!", "Parece que este canal esá offline!", "error");}
         // F O X F C H A N N I F
         if (getURL == "fsoul") {getURL = fsoul;}
         if (getURL == "fseattle") {getURL = fseattle;}
