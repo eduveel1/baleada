@@ -4,7 +4,7 @@ if (location.protocol == 'https:') {
 }
 // E P L
 let p1 = "http://147.182.210.238/live/ovochannel3/playlist.m3u8";
-let p2 = "http://206.189.22.136/live/ovochannel1/playlist.m3u8";
+let p2 = "http://pool.assia2.tv/hls/146.m3u8?md5=nPeqiUvX4HBUHFlV8s89xQ&expires=1629559034";
 let p3 = "https://wowzaprodhd50-lh.akamaihd.net/i/59d26aab_1@26065/master.m3u8";
 let p4 = "http://167.99.195.178/live/ovochannel3/playlist.m3u8";
 let p5 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
