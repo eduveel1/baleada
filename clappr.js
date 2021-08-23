@@ -2,40 +2,40 @@
 if (location.protocol == 'https:') {
     location.replace(`http:${location.href.substring(location.protocol.length)}`);
 }
-//window.onload = function() {
-//             var player = new Clappr.Player({
-//                 source: srcLOAD,
-//                 parentId: '#player',
-//                 mimeType: 'audio/mpeg',
-//                 watermark: "https://i.ibb.co/kqmptsD/iRTVW.png", 
-//                 position: 'top-left',
-//                 plugins: [LevelSelector, ChromecastPlugin, ClapprPip.PipButton, ClapprPip.PipPlugin, DashShakaPlayback, Clappr.MediaControl, PlaybackRatePlugin],
-//                 events: {onReady: function() {var plugin = this.getPlugin('click_to_pause'); plugin && plugin.disable();},},
-//                 height: '100%',
-//                 width: '100%',
-//                 autoPlay: true,
-//                 mute: true,
-//                 shakaConfiguration: {
-//                 manifest: {retryParameters: {maxAttempts: Infinity}},
-//                 streaming: {retryParameters: {maxAttempts: Infinity}},
-//                 drm: {retryParameters: {maxAttempts: Infinity}},
-//                 },
-//                 playbackRateConfig: {
-//                 defaultValue: '1.00x',
-//                 options: [
-//                 {value: '0.10', label: '0.10x'},
-//                 {value: '0.25', label: '0.25x'},
-//                 {value: '0.50', label: '0.50x'},
-//                 {value: '0.75', label: '0.75x'},
-//                 {value: '1.00', label: '1.00x'},
-//                 {value: '1.25', label: '1.25x'},
-//                 {value: '1.50', label: '1.50x'},
-//                 {value: '1.75', label: '1.75x'},
-//                 {value: '2.00', label: '2.00x'},
-//                 ]
-//                 },
-//             });
-//         };
+window.onload = function() {
+             var player = new Clappr.Player({
+                 source: srcLOAD,
+                 parentId: '#player',
+                 mimeType: 'audio/mpeg',
+                 watermark: "https://i.ibb.co/kqmptsD/iRTVW.png", 
+                 position: 'top-left',
+                 plugins: [LevelSelector, ChromecastPlugin, ClapprPip.PipButton, ClapprPip.PipPlugin, DashShakaPlayback, Clappr.MediaControl, PlaybackRatePlugin],
+                 events: {onReady: function() {var plugin = this.getPlugin('click_to_pause'); plugin && plugin.disable();},},
+                 height: '100%',
+                 width: '100%',
+                 autoPlay: true,
+                 mute: true,
+                 shakaConfiguration: {
+                 manifest: {retryParameters: {maxAttempts: Infinity}},
+                 streaming: {retryParameters: {maxAttempts: Infinity}},
+                 drm: {retryParameters: {maxAttempts: Infinity}},
+                 },
+                 playbackRateConfig: {
+                 defaultValue: '1.00x',
+                 options: [
+                 {value: '0.10', label: '0.10x'},
+                 {value: '0.25', label: '0.25x'},
+                 {value: '0.50', label: '0.50x'},
+                 {value: '0.75', label: '0.75x'},
+                 {value: '1.00', label: '1.00x'},
+                 {value: '1.25', label: '1.25x'},
+                 {value: '1.50', label: '1.50x'},
+                 {value: '1.75', label: '1.75x'},
+                 {value: '2.00', label: '2.00x'},
+                 ]
+                 },
+             });
+         };
 // E P L
 let p1 = "http://161.35.58.89/live/ovochannel2/playlist.m3u8";
 let p2 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
@@ -105,7 +105,7 @@ let estrellatv = "//estrellatv-plex.amagi.tv/playlist.m3u8";
 let espn2sur = "//qlobbidev.s.llnwi.net/bpk-tv/ESPN2/hls/index.m3u8";
 let espnus = "//134.19.182.131:8080/edg8_2.m3u8";
 let tv3cat = "//directes-tv-int.ccma.cat/int/ngrp:tv3_web/playlist.m3u8";
-let lasexta = "//91.126.141.13:1935/live/21/playlist.m3u8";
+let lasexta = "http://91.126.141.13:1935/live/21/playlist.m3u8";
 let clarosp = "//dai.google.com/linear/hls/event/MErimHzcQJyFY4sABtO2Lg/master.m3u8";
 
 // PROPELLER INTERSTICIAL
