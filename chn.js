@@ -15,7 +15,7 @@ window.onload = function() {
                  height: '100%',
                  width: '100%',
                  autoPlay: true,
-                 mute: true,
+                 mute: false,
                  shakaConfiguration: {
                  manifest: {retryParameters: {maxAttempts: Infinity}},
                  streaming: {retryParameters: {maxAttempts: Infinity}},
@@ -80,6 +80,19 @@ let pdora = "https://siloh.pluto.tv/lilo/production/Nick/03/master.m3u8";
 let estrellanews = "//estrellanews-plex.amagi.tv/playlist.m3u8";
 let latidomusic = "//vidaprimo-plex.amagi.tv/playlist.m3u8";
 let mooviemex = "//dai2.xumo.com/amagi_hls_data_xumo1212A-rokumoovimex/CDN/playlist.m3u8";
+// E S P A Ñ A
+let paramountes = "//flus1.sanpedrowifi.com/live/paramount.sd.ird/index.m3u8";
+// H O N D U R A S
+let tsi = "//dailymotion.com/embed/video/k4kBR7bvHSEZeSwu26R?autoplay=1";
+let canal5 = "//dailymotion.com/embed/video/k3RU54lYRXvhyCwgt0d?autoplay=1";
+let telecadena = "//dailymotion.com/embed/video/k1fuFbqqr7UftiwnPY7?autoplay=1";
+let tvcdeportes = "//dailymotion.com/embed/video/k47r4gXKjUTXzNwHsoc?autoplay=1";
+let hchtv = "//dailymotion.com/embed/video/x81za5c?autoplay=1";
+//  D E P O R T E
+let beinn = "https://televisionlibre.net/redir.html?get=Ly9zdjMuZnV0Ym9sbGlicmUubmV0L2JlaW5fZXMuaHRtbD8=";
+let goltvecif = "https://televisionlibre.net/redir.html?get=Ly9zdjMuZnV0Ym9sbGlicmUubmV0L2dvbHR2Lmh0bWw/";
+let tycintl = "https://sv3.futbollibre.net/tyc.html?wm7f";
+
     // BALANCER M E X I C O
     let blncra = "http://balancer1."+"ipt"+"vm"+"x.com"+":8081/"+"tecno/"; let blncrb = ".Tec"+"noB"+"yte/"+"chu"+"nks."+"m3"+"u8";
 
@@ -148,6 +161,8 @@ var srcLOAD = getParameterByName('src');
         if (srcLOAD == "estrellanews") {srcLOAD = estrellanews;}
         if (srcLOAD == "latidomusic") {srcLOAD = latidomusic;}
         if (srcLOAD == "mooviemex") {srcLOAD = mooviemex;}
+        // E S P A Ñ A
+        if (srcLOAD == "paramountes") {srcLOAD = paramountes;}
         // B A L A N C E R
         if (srcLOAD == "dscience") {srcLOAD = dscience;}
         if (srcLOAD == "dtheater") {srcLOAD = dtheater;}
@@ -162,3 +177,15 @@ var srcLOAD = getParameterByName('src');
         if (srcLOAD == "hboplus") {srcLOAD = hboplus;}
         if (srcLOAD == "tooncast") {srcLOAD = tooncast;}
         if (srcLOAD == "nickmxb") {srcLOAD = nickmxb;}
+
+var getURL = getParameterByName('get');
+        // H O N D U R A S
+        if (srcLOAD == "tsi") {srcLOAD = window.location.href = tsi;}
+        if (srcLOAD == "canal5") {srcLOAD = window.location.href = canal5;}
+        if (srcLOAD == "telecadena") {srcLOAD = window.location.href = telecadena;}
+        if (srcLOAD == "tvcdeportes") {srcLOAD = window.location.href = tvcdeportes;}
+        if (srcLOAD == "hchtv") {srcLOAD = window.location.href = hchtv;}
+        // D E P O R T E
+        if (srcLOAD == "beinn") {srcLOAD = window.location.href = beinn;}
+        if (srcLOAD == "goltvecif") {srcLOAD = window.location.href = goltvecif;}
+        if (srcLOAD == "tycintl") {srcLOAD = window.location.href = tycintl;}
