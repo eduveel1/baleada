@@ -70,59 +70,59 @@ function getParameterByName(name) {
               return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
           }
 
-var getURL = getParameterByName('get');
-        if (getURL == "#") {swal("Oops!", "Parece que este canal esá offline!", "error");}
-        if (getURL == "") {swal("Oops!", "Parece que este canal esá offline!", "error");}
+var srcLOAD = getParameterByName('src');
+        if (srcLOAD == "#") {swal("Oops!", "Parece que este canal esá offline!", "error");}
+        if (srcLOAD == "") {swal("Oops!", "Parece que este canal esá offline!", "error");}
         // F O X F C H A N N I F
-        if (getURL == "fsoul") {getURL = fsoul;}
-        if (getURL == "fseattle") {getURL = fseattle;}
-        if (getURL == "fdallas") {getURL = fdallas;}
-        if (getURL == "fminneapolis") {getURL = fminneapolis;}
-        if (getURL == "fhouston") {getURL = fhouston;}
-        if (getURL == "fphoenix") {getURL = fphoenix;}
-        if (getURL == "faustin") {getURL = faustin;}
-        if (getURL == "flosangeles") {getURL = flosangeles;}
-        if (getURL == "fsanfrancisco") {getURL = fsanfrancisco;}
-        if (getURL == "fatlanta") {getURL = fatlanta;}
-        if (getURL == "fchicago") {getURL = fchicago;}
-        if (getURL == "fmilwaukee") {getURL = fmilwaukee;}
-        if (getURL == "fdetroit") {getURL = fdetroit;}
-        if (getURL == "fnewyork") {getURL = fnewyork;}
-        if (getURL == "forlando") {getURL = forlando;}
-        if (getURL == "fsavannah") {getURL = fsavannah;}
-        if (getURL == "ftulsa") {getURL = ftulsa;}
-        if (getURL == "fmiami") {getURL = fmiami;}
-        if (getURL == "fwashington") {getURL = fwashington;}
-        if (getURL == "ftampa") {getURL = ftampa;}
-        if (getURL == "fphiladelphia") {getURL = fphiladelphia;}
+        if (srcLOAD == "fsoul") {srcLOAD = fsoul;}
+        if (srcLOAD == "fseattle") {srcLOAD = fseattle;}
+        if (srcLOAD == "fdallas") {srcLOAD = fdallas;}
+        if (srcLOAD == "fminneapolis") {srcLOAD = fminneapolis;}
+        if (srcLOAD == "fhouston") {srcLOAD = fhouston;}
+        if (srcLOAD == "fphoenix") {srcLOAD = fphoenix;}
+        if (srcLOAD == "faustin") {srcLOAD = faustin;}
+        if (srcLOAD == "flosangeles") {srcLOAD = flosangeles;}
+        if (srcLOAD == "fsanfrancisco") {srcLOAD = fsanfrancisco;}
+        if (srcLOAD == "fatlanta") {srcLOAD = fatlanta;}
+        if (srcLOAD == "fchicago") {srcLOAD = fchicago;}
+        if (srcLOAD == "fmilwaukee") {srcLOAD = fmilwaukee;}
+        if (srcLOAD == "fdetroit") {srcLOAD = fdetroit;}
+        if (srcLOAD == "fnewyork") {srcLOAD = fnewyork;}
+        if (srcLOAD == "forlando") {srcLOAD = forlando;}
+        if (srcLOAD == "fsavannah") {srcLOAD = fsavannah;}
+        if (srcLOAD == "ftulsa") {srcLOAD = ftulsa;}
+        if (srcLOAD == "fmiami") {srcLOAD = fmiami;}
+        if (srcLOAD == "fwashington") {srcLOAD = fwashington;}
+        if (srcLOAD == "ftampa") {srcLOAD = ftampa;}
+        if (srcLOAD == "fphiladelphia") {srcLOAD = fphiladelphia;}
         // A B C
-        if (getURL == "abc23") {getURL = abcKERO;}
-        if (getURL == "abc15") {getURL = abc15;}
-        if (getURL == "abc2") {getURL = abcwBRZ;}
-        if (getURL == "abc7") {getURL = abcKGO;}
-        if (getURL == "abcKMGH") {getURL = abcKMGH;}
-        if (getURL == "abcWXYZ") {getURL = abcWXYZ;}
-        if (getURL == "abcWWSB") {getURL = abcWWSB;}
-        if (getURL == "abc9") {getURL = abcWFTV;}
+        if (srcLOAD == "abc23") {srcLOAD = abcKERO;}
+        if (srcLOAD == "abc15") {srcLOAD = abc15;}
+        if (srcLOAD == "abc2") {srcLOAD = abcwBRZ;}
+        if (srcLOAD == "abc7") {srcLOAD = abcKGO;}
+        if (srcLOAD == "abcKMGH") {srcLOAD = abcKMGH;}
+        if (srcLOAD == "abcWXYZ") {srcLOAD = abcWXYZ;}
+        if (srcLOAD == "abcWWSB") {srcLOAD = abcWWSB;}
+        if (srcLOAD == "abc9") {srcLOAD = abcWFTV;}
         // E S P A N O L
-        if (getURL == "uno") {getURL = uno;}
-        if (getURL == "chavo") {getURL = chavo;}
-        if (getURL == "cnnchile") {getURL = cnnchile;}
-        if (getURL == "pdora") {getURL = pdora;}
-        if (getURL == "estrellanews") {getURL = estrellanews;}
-        if (getURL == "latidomusic") {getURL = latidomusic;}
-        if (getURL == "mooviemex") {getURL = mooviemex;}
+        if (srcLOAD == "uno") {srcLOAD = uno;}
+        if (srcLOAD == "chavo") {srcLOAD = chavo;}
+        if (srcLOAD == "cnnchile") {srcLOAD = cnnchile;}
+        if (srcLOAD == "pdora") {srcLOAD = pdora;}
+        if (srcLOAD == "estrellanews") {srcLOAD = estrellanews;}
+        if (srcLOAD == "latidomusic") {srcLOAD = latidomusic;}
+        if (srcLOAD == "mooviemex") {srcLOAD = mooviemex;}
         // B A L A N C E R
-        if (getURL == "dscience") {getURL = dscience;}
-        if (getURL == "dtheater") {getURL = dtheater;}
-        if (getURL == "dworld") {getURL = dworld;}
-        if (getURL == "animalplanet") {getURL = animalplanet;}
-        if (getURL == "foxaction") {getURL = foxaction;}
-        if (getURL == "foxclassics") {getURL = foxclassics;}
-        if (getURL == "foxlife") {getURL = foxlife;}
-        if (getURL == "hbo") {getURL = hbo;}
-        if (getURL == "hbo2") {getURL = hbo2;}
-        if (getURL == "hbofamily") {getURL = hbofamily;}
-        if (getURL == "hboplus") {getURL = hboplus;}
-        if (getURL == "tooncast") {getURL = tooncast;}
-        if (getURL == "nickmxb") {getURL = nickmxb;}
+        if (srcLOAD == "dscience") {srcLOAD = dscience;}
+        if (srcLOAD == "dtheater") {srcLOAD = dtheater;}
+        if (srcLOAD == "dworld") {srcLOAD = dworld;}
+        if (srcLOAD == "animalplanet") {srcLOAD = animalplanet;}
+        if (srcLOAD == "foxaction") {srcLOAD = foxaction;}
+        if (srcLOAD == "foxclassics") {srcLOAD = foxclassics;}
+        if (srcLOAD == "foxlife") {srcLOAD = foxlife;}
+        if (srcLOAD == "hbo") {srcLOAD = hbo;}
+        if (srcLOAD == "hbo2") {srcLOAD = hbo2;}
+        if (srcLOAD == "hbofamily") {srcLOAD = hbofamily;}
+        if (srcLOAD == "hboplus") {srcLOAD = hboplus;}
+        if (srcLOAD == "tooncast") {srcLOAD = tooncast;}
+        if (srcLOAD == "nickmxb") {srcLOAD = nickmxb;}
