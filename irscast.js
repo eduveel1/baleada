@@ -142,9 +142,9 @@ function getParameterByName(name) {
         if (getURL == "mlcamp3") {getURL = ch54;}
         if (getURL == "barsd") {getURL = ch60;}
         // P O T C L L
-        if (getURL == "itv") {getURL = itv;}
-        if (getURL == "itv2") {getURL = itv2;}
-        if (getURL == "itv3") {getURL = itv3;}
-        if (getURL == "itv4") {getURL = itv4;}
-        if (getURL == "itvbe") {getURL = itvbe;}
-        if (getURL == "citv") {getURL = citv;}
+        if (getURL == "itv") {getURL = window.location.href = itv;}
+        if (getURL == "itv2") {getURL = window.location.href = itv2;}
+        if (getURL == "itv3") {getURL = window.location.href = itv3;}
+        if (getURL == "itv4") {getURL = window.location.href = itv4;}
+        if (getURL == "itvbe") {getURL = window.location.href = itvbe;}
+        if (getURL == "citv") {getURL = window.location.href = citv;}
