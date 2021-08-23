@@ -178,7 +178,7 @@ var srcLOAD = getParameterByName('src');
         if (srcLOAD == "tooncast") {srcLOAD = tooncast;}
         if (srcLOAD == "nickmxb") {srcLOAD = nickmxb;}
 
-var getURL = getParameterByName('get');
+        var getURL = getParameterByName('get');
         // H O N D U R A S
         if (srcLOAD == "tsi") {srcLOAD = window.location.href = tsi;}
         if (srcLOAD == "canal5") {srcLOAD = window.location.href = canal5;}
