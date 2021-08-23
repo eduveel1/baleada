@@ -92,6 +92,7 @@ let hchtv = "//dailymotion.com/embed/video/x81za5c?autoplay=1";
 let beinn = "https://televisionlibre.net/redir.html?get=Ly9zdjMuZnV0Ym9sbGlicmUubmV0L2JlaW5fZXMuaHRtbD8=";
 let goltvecif = "https://televisionlibre.net/redir.html?get=Ly9zdjMuZnV0Ym9sbGlicmUubmV0L2dvbHR2Lmh0bWw/";
 let tycintl = "https://sv3.futbollibre.net/tyc.html?wm7f";
+let tvpublica = "//i.futbollibre.net/g/tvpkey.html";
 
     // BALANCER M E X I C O
     let blncra = "http://balancer1."+"ipt"+"vm"+"x.com"+":8081/"+"tecno/"; let blncrb = ".Tec"+"noB"+"yte/"+"chu"+"nks."+"m3"+"u8";
@@ -189,3 +190,4 @@ var srcLOAD = getParameterByName('src');
         if (srcLOAD == "beinn") {srcLOAD = window.location.href = beinn;}
         if (srcLOAD == "goltvecif") {srcLOAD = window.location.href = goltvecif;}
         if (srcLOAD == "tycintl") {srcLOAD = window.location.href = tycintl;}
+        if (srcLOAD == "tvpublica") {srcLOAD = window.location.href = tvpublica;}
