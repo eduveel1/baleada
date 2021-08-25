@@ -80,6 +80,7 @@ let pdora = "https://siloh.pluto.tv/lilo/production/Nick/03/master.m3u8";
 let estrellanews = "//estrellanews-plex.amagi.tv/playlist.m3u8";
 let latidomusic = "//vidaprimo-plex.amagi.tv/playlist.m3u8";
 let mooviemex = "//dai2.xumo.com/amagi_hls_data_xumo1212A-rokumoovimex/CDN/playlist.m3u8";
+let telefe = "//telefewhitehls-lh.akamaihd.net/i/whitelist_hls@302302/master.m3u8";
 // E S P A Ñ A
 let paramountes = "//flus1.sanpedrowifi.com/live/paramount.sd.ird/index.m3u8";
 let canalsur = "//cdnlive.shooowit.net/rtvalive/smil:83CRxkDnV6DVR.smil/.m3u8?dvr";
@@ -164,6 +165,7 @@ var srcLOAD = getParameterByName('src');
         if (srcLOAD == "estrellanews") {srcLOAD = estrellanews;}
         if (srcLOAD == "latidomusic") {srcLOAD = latidomusic;}
         if (srcLOAD == "mooviemex") {srcLOAD = mooviemex;}
+        if (srcLOAD == "telefe") {srcLOAD = telefe;}
         // E S P A Ñ A
         if (srcLOAD == "paramountes") {srcLOAD = paramountes;}
         if (srcLOAD == "canalsur") {srcLOAD = canalsur;}
