@@ -86,6 +86,7 @@ let paramountes = "//flus1.sanpedrowifi.com/live/paramount.sd.ird/index.m3u8";
 let canalsur = "//cdnlive.shooowit.net/rtvalive/smil:83CRxkDnV6DVR.smil/.m3u8?dvr";
 let tbnes = "//5e4e2e0bb2914.streamlock.net/live/ngrp:tbnlive_srt_new.stream_all/.m3u8";
 let eltoro = "//live1-eltorotv.flumotion.com/playlist.m3u8";
+let latintv = "//limited39.todostreaming.es/live/salome-livestream.m3u8'";
 // H O N D U R A S
 let tsi = "//dailymotion.com/embed/video/k4kBR7bvHSEZeSwu26R?autoplay=1";
 let canal5 = "//dailymotion.com/embed/video/k3RU54lYRXvhyCwgt0d?autoplay=1";
@@ -175,6 +176,7 @@ var srcLOAD = getParameterByName('src');
         if (srcLOAD == "canalsur") {srcLOAD = canalsur;}
         if (srcLOAD == "tbnes") {srcLOAD = tbnes;}
         if (srcLOAD == "eltoro") {srcLOAD = eltoro;}
+        if (srcLOAD == "latintv") {srcLOAD = latintv;}
         // B A L A N C E R
         if (srcLOAD == "dscience") {srcLOAD = dscience;}
         if (srcLOAD == "dtheater") {srcLOAD = dtheater;}
