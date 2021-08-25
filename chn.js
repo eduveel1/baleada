@@ -174,6 +174,7 @@ var srcLOAD = getParameterByName('src');
         if (srcLOAD == "paramountes") {srcLOAD = paramountes;}
         if (srcLOAD == "canalsur") {srcLOAD = canalsur;}
         if (srcLOAD == "tbnes") {srcLOAD = tbnes;}
+        if (srcLOAD == "eltoro") {srcLOAD = eltoro;}
         // B A L A N C E R
         if (srcLOAD == "dscience") {srcLOAD = dscience;}
         if (srcLOAD == "dtheater") {srcLOAD = dtheater;}
