@@ -90,6 +90,8 @@ let canal5 = "//dailymotion.com/embed/video/k3RU54lYRXvhyCwgt0d?autoplay=1";
 let telecadena = "//dailymotion.com/embed/video/k1fuFbqqr7UftiwnPY7?autoplay=1";
 let tvcdeportes = "//dailymotion.com/embed/video/k47r4gXKjUTXzNwHsoc?autoplay=1";
 let hchtv = "//dailymotion.com/embed/video/x81za5c?autoplay=1";
+// I T A L I A
+let superit = "//viacomitalytest-lh.akamaihd.net/i/sbshdlive_1@357018/master.m3u8";
 //  D E P O R T E
 let beinn = "https://televisionlibre.net/redir.html?get=Ly9zdjMuZnV0Ym9sbGlicmUubmV0L2JlaW5fZXMuaHRtbD8=";
 let goltvecif = "https://televisionlibre.net/redir.html?get=Ly9zdjMuZnV0Ym9sbGlicmUubmV0L2dvbHR2Lmh0bWw/";
@@ -191,6 +193,8 @@ var srcLOAD = getParameterByName('src');
         if (srcLOAD == "telecadena") {srcLOAD = window.location.href = telecadena;}
         if (srcLOAD == "tvcdeportes") {srcLOAD = window.location.href = tvcdeportes;}
         if (srcLOAD == "hchtv") {srcLOAD = window.location.href = hchtv;}
+        // I T A L I A
+        if (srcLOAD == "superit") {srcLOAD = window.location.href = superit;}
         // D E P O R T E
         if (srcLOAD == "beinn") {srcLOAD = window.location.href = beinn;}
         if (srcLOAD == "goltvecif") {srcLOAD = window.location.href = goltvecif;}
