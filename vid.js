@@ -3,8 +3,8 @@ if (location.protocol == 'https:') {
     location.replace(`http:${location.href.substring(location.protocol.length)}`);
 }
 // E P L
-let p1 = "http://147.182.210.238/live/ovochannel3/playlist.m3u8";
-let p2 = "http://pool.assia2.tv/hls/146.m3u8?md5=nPeqiUvX4HBUHFlV8s89xQ&expires=1629559034";
+let p1 = "http://159.89.82.102/live/ovochannel1/playlist.m3u8";
+let p2 = "http://147.182.215.210/live/ovochannel1/playlist.m3u8";
 let p3 = "http://103.145.12.195:8080/hls/streama160976/index.m3u8?cst=82cfc0f40dc1548a34d74f8a7de80775";
 let p4 = "http://167.99.195.178/live/ovochannel3/playlist.m3u8";
 let p5 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
