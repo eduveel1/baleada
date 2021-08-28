@@ -5,7 +5,7 @@ if (location.protocol == 'https:') {
 // E P L
 let p1 = "http://147.182.212.3/live/ovochannel2/playlist.m3u8";
 let p2 = "https://www.livedoomovie.com/02_PremierHD2_720p/chunklist.m3u8";
-let p3 = "https://www.livedoomovie.com/02_PremierHD2_720p/chunklist.m3u8";
+let p3 = "https://www.livedoomovie.com/02_PremierHD1_720p/chunklist.m3u8";
 let p4 = "http://167.99.195.178/live/ovochannel3/playlist.m3u8";
 let p5 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let p6 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
