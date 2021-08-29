@@ -9,7 +9,7 @@ let ch1 = srv + "1" + srvh; let bar = ch1;
 let ch2 = srv + "2" + srvh; let mlaliga1 = ch2;
 let ch3 = srv + "3" + srvh; let mlaliga2 = ch3;
 let ch4 = srv + "4" + srvh; let mlaliga3 = ch4;
-let ch5 = srv + "5" + srvh; let beinus = ch5;
+let ch5 = srv + "5" + srvh; let mlaliga4 = ch5;
 let ch6 = srv + "6" + srvh; let beinne = ch6;
 let ch7 = srv + "7" + srvh; let telecinco = ch7;
 let ch8 = srv + "8" + srvh; let daznf1 = ch8;
@@ -98,7 +98,7 @@ function getParameterByName(name) {
         if (getURL == "mlaliga1") {getURL = ch2;}
         if (getURL == "mlaliga2") {getURL = ch3;}
         if (getURL == "mlaliga3") {getURL = ch4;}
-        if (getURL == "beinus") {getURL = ch5;}
+        if (getURL == "mlaliga4") {getURL = ch5;}
         if (getURL == "beinne") {getURL = ch6;}
         if (getURL == "telecinco") {getURL = ch7;}
         if (getURL == "daznf1") {getURL = ch8;}
