@@ -62,6 +62,9 @@ let fwashington = "//lnc-wttg-fox-aws.tubi.video/index.m3u8";
 let ftampa = "//lnc-wtvt-fox-aws.tubi.video/index.m3u8";
 let fphiladelphia = "//lnc-wtxf-fox-aws.tubi.video/index.m3u8";
 
+// E N G L I S H
+let mmajunkie = "//a.jsrdn.com/broadcast/80f6ba72c8/+0000/high/c.m3u8";
+
 // A B C
 let abcKERO = "//content.uplynk.com/channel/ff809e6d9ec34109abfb333f0d4444b5.m3u8";
 let abc15 = "//content.uplynk.com/channel/9deaf22aaa33461f9cac22e030ed00ec.m3u8";
@@ -154,6 +157,8 @@ var srcLOAD = getParameterByName('src');
         if (srcLOAD == "fwashington") {srcLOAD = fwashington;}
         if (srcLOAD == "ftampa") {srcLOAD = ftampa;}
         if (srcLOAD == "fphiladelphia") {srcLOAD = fphiladelphia;}
+        // EN G L I S H
+        if (srcLOAD == "mmajunkie") {srcLOAD = mmajunkie;}
         // A B C
         if (srcLOAD == "abc23") {srcLOAD = abcKERO;}
         if (srcLOAD == "abc15") {srcLOAD = abc15;}
