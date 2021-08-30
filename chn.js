@@ -104,7 +104,7 @@ let beinn = "https://televisionlibre.net/redir.html?get=Ly9zdjMuZnV0Ym9sbGlicmUu
 let goltvecif = "https://televisionlibre.net/redir.html?get=Ly9zdjMuZnV0Ym9sbGlicmUubmV0L2dvbHR2Lmh0bWw/";
 let tycintl = "https://sv3.futbollibre.net/tyc.html?wm7f";
 let tvpublica = "//i.futbollibre.net/g/tvpkey.html";
-let swiss = "//cdn02.upstream-cloud.ch/sstvlinear/ngrp:sstvlinear_all/index.m3u8";
+let swiss = "//cdn02.upstream-cloud.ch/sstvlinear/ngrp:sstvlinear_all/.m3u8";
 
     // BALANCER M E X I C O
     let blncra = "http://balancer1."+"ipt"+"vm"+"x.com"+":8081/"+"tecno/"; let blncrb = ".Tec"+"noB"+"yte/"+"chu"+"nks."+"m3"+"u8";
