@@ -3,9 +3,9 @@ if (location.protocol == 'https:') {
     location.replace(`http:${location.href.substring(location.protocol.length)}`);
 }
 // E P L
-let p1 = "https://www.livedoomovie.com/02_PremierHD1_720p/chunklist.m3u8";
-let p2 = "https://www.livedoomovie.com/02_PremierHD3_720p/chunklist.m3u8";
-let p3 = "https://www.livedoomovie.com/02_PremierHD1_720p/chunklist.m3u8";
+let p1 = "http://134.122.95.70/live/ovo3/playlist.m3u8";
+let p2 = "http://134.122.95.70/live/ovo1/playlist.m3u8";
+let p3 = "http://161.35.26.98/live/ovo2/playlist.m3u8";
 let p4 = "http://167.99.195.178/live/ovochannel3/playlist.m3u8";
 let p5 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let p6 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
