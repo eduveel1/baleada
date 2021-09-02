@@ -3,7 +3,7 @@ if (location.protocol == 'https:') {
     location.replace(`http:${location.href.substring(location.protocol.length)}`);
 }
 // E P L
-let p1 = "http://167.99.136.37/live/ovo1/playlist.m3u8";
+let p1 = "http://134.209.254.135/live/ovo1/playlist.m3u8";
 let p2 = "http://161.35.26.98/live/ovo2/playlist.m3u8";
 let p3 = "http://134.122.95.6/live/ovo3/playlist.m3u8";
 let p4 = "http://167.99.136.37/live/ovo4/playlist.m3u8";
