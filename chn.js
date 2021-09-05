@@ -213,5 +213,4 @@ var srcLOAD = getParameterByName('src');
         if (srcLOAD == "goltvecif") {srcLOAD = window.location.href = goltvecif;}
         if (srcLOAD == "tycintl") {srcLOAD = window.location.href = tycintl;}
         if (srcLOAD == "tycif") {srcLOAD = window.location.href = tycif;}
-        if (srcLOAD == "tvpublica") {srcLOAD = window.location.href = tvpublica;}
         if (srcLOAD == "swiss") {srcLOAD = swiss;}
