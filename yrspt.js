@@ -39,9 +39,9 @@ let canal5hn = "//dailymotion.com/embed/video/k3RU54lYRXvhyCwgt0d?autoplay=1";
 let telecadena = "//dailymotion.com/embed/video/k1fuFbqqr7UftiwnPY7?autoplay=1";
 let tvcdeportes = "//dailymotion.com/embed/video/k47r4gXKjUTXzNwHsoc?autoplay=1";
 // EVENTUALES
-let tsie = "";
+let tsie = "https://bcovlive-a.akamaihd.net/8520a5c6a0384300b735385e02e2f582/us-west-2/6056665196001/playlist.m3u8";
 let canal5hne = "";
-let telecadenae = "";
+let telecadenae = "https://bcovlive-a.akamaihd.net/5a4db02a43d645729f273b91c5ba9238/us-west-2/6056665196001/playlist.m3u8";
 let tvcdeportese = "https://www.dailymotion.com/cdn/live/video/x7xs2wx.m3u8?sec=Q1SDWS6gnXr0e4vL1Yp0IFKIldwqOIq058QPQcj2I788EEw3BaimiYaFbbhui8ndzEBSmBH2EBtWcuGDTICRtQ";
 
 let tudnif = "//futbollibre.net/en-vivo/tudn/embed.html?";
