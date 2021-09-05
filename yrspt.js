@@ -271,15 +271,8 @@ function getParameterByName(name) {
                     buttons: [false],
                 });}
 
-                if (src == "tsie") {src = tsie;}
-                if (src == "tsie?cast") {src = tsie; swal({
-                    icon: "info",
-                    title: "Oops!",
-                    text: "Este contenido no reproducirá al menos que utilices Web Caster para enviar a tu TV.",
-                    closeOnEsc: false,
-                    closeOnClickOutside: false,
-                    buttons: [false],
-                });}
+                if (src == "tsie") {src = window.location.href = tsie;}
+
                 if (src == "canal5hn") {src = canal5hn;}
                 if (src == "canal5hn?cast") {src = canal5hn; swal({
                     icon: "info",
@@ -289,15 +282,7 @@ function getParameterByName(name) {
                     closeOnClickOutside: false,
                     buttons: [false],
                 });}
-                if (src == "canal5hne") {src = canal5hne;}
-                if (src == "canal5hne?cast") {src = canal5hne; swal({
-                    icon: "info",
-                    title: "Oops!",
-                    text: "Este contenido no reproducirá al menos que utilices Web Caster para enviar a tu TV.",
-                    closeOnEsc: false,
-                    closeOnClickOutside: false,
-                    buttons: [false],
-                });}
+                if (src == "canal5hne") {src = window.location.href = canal5hne;}
 
                 if (src == "telecadena") {src = telecadena;}
                 if (src == "telecadena?cast") {src = telecadena; swal({
@@ -309,15 +294,7 @@ function getParameterByName(name) {
                     buttons: [false],
                 });}
 
-                if (src == "telecadenae") {src = telecadenae;}
-                if (src == "telecadenae?cast") {src = telecadenae; swal({
-                    icon: "info",
-                    title: "Oops!",
-                    text: "Este contenido no reproducirá al menos que utilices Web Caster para enviar a tu TV.",
-                    closeOnEsc: false,
-                    closeOnClickOutside: false,
-                    buttons: [false],
-                });}
+                if (src == "telecadenae") {src = window.location.href = telecadenae;}
 
                 if (src == "tvcdeportes") {src = tvcdeportes;}
                 if (src == "tvcdeportes?cast") {src = tvcdeportes; swal({
@@ -329,15 +306,7 @@ function getParameterByName(name) {
                     buttons: [false],
                 });}
 
-                if (src == "tvcdeportese") {src = tvcdeportese;}
-                if (src == "tvcdeportese?cast") {src = tvcdeportese; swal({
-                    icon: "info",
-                    title: "Oops!",
-                    text: "Este contenido no reproducirá al menos que utilices Web Caster para enviar a tu TV.",
-                    closeOnEsc: false,
-                    closeOnClickOutside: false,
-                    buttons: [false],
-                });}
+                if (src == "tvcdeportese") {src = window.location.href = tvcdeportese;}
 
                 if (src == "tudnif") {src = tudnif;}
                 if (src == "tudnif?cast") {src = tudnif; swal({
