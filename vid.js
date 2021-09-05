@@ -4,8 +4,8 @@ if (location.protocol == 'https:') {
 }
 // E P L
 let p1 = "http://134.209.254.135/live/ovo1/playlist.m3u8";
-let p2 = "http://161.35.26.98/live/ovo2/playlist.m3u8";
-let p3 = "http://134.122.95.70/live/ovo3/playlist.m3u8";
+let p2 = "http://167.99.136.37/live/ovo2/playlist.m3u8";
+let p3 = "http://134.209.254.135/live/ovo3/playlist.m3u8";
 let p4 = "http://cdn2.cyclingstreams.xyz/hls/P3.m3u8";
 let p5 = "http://147.182.215.210/live/ovochannel1/playlist.m3u8";
 let p6 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
@@ -14,7 +14,7 @@ let p8 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let p9 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let p10 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 // L L S
-let c1 = "http://206.189.30.73/live/ovochannel2/playlist.m3u8";
+let c1 = "//5.9.104.206:2536/live/iraffle/slowd2021/28.m3u8";
 let c2 = "https://d18wuqb33xq9fu.cloudfront.net/out/v1/65f0f6c5465044b584bdeb1c039b9ed3/index.m3u8";
 let c3 = "http://167.99.203.77/live/ovochannel2/playlist.m3u8";
 let c4 = "http://159.65.82.57/live/ovochannel1/playlist.m3u8";
