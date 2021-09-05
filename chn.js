@@ -103,6 +103,7 @@ let superit = "//viacomitalytest-lh.akamaihd.net/i/sbshdlive_1@357018/master.m3u
 let beinn = "https://televisionlibre.net/redir.html?get=Ly9zdjMuZnV0Ym9sbGlicmUubmV0L2JlaW5fZXMuaHRtbD8=";
 let goltvecif = "https://televisionlibre.net/redir.html?get=Ly9zdjMuZnV0Ym9sbGlicmUubmV0L2dvbHR2Lmh0bWw/";
 let tycintl = "https://sv3.futbollibre.net/tyc.html?wm7f";
+let tycif = "//futbollibre.net/en-vivo/tyc-sports/embed.html";
 let tvpublica = "//i.futbollibre.net/g/tvpkey.html";
 let swiss = "//cdn02.upstream-cloud.ch/sstvlinear/ngrp:sstvlinear_all/.m3u8";
 
@@ -211,5 +212,6 @@ var srcLOAD = getParameterByName('src');
         if (srcLOAD == "beinn") {srcLOAD = window.location.href = beinn;}
         if (srcLOAD == "goltvecif") {srcLOAD = window.location.href = goltvecif;}
         if (srcLOAD == "tycintl") {srcLOAD = window.location.href = tycintl;}
+        if (srcLOAD == "tycif") {srcLOAD = window.location.href = tycif;}
         if (srcLOAD == "tvpublica") {srcLOAD = window.location.href = tvpublica;}
         if (srcLOAD == "swiss") {srcLOAD = swiss;}
