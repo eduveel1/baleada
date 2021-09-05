@@ -107,6 +107,7 @@ let espnus = "//134.19.182.131:8080/edg8_2.m3u8";
 let tv3cat = "//directes-tv-int.ccma.cat/int/ngrp:tv3_web/playlist.m3u8";
 let lasexta = "http://91.126.141.13:1935/live/21/playlist.m3u8";
 let clarosp = "//dai.google.com/linear/hls/event/MErimHzcQJyFY4sABtO2Lg/master.m3u8";
+let tcsgo = "//5.9.104.206:2536/live/iraffle/slowd2021/67.m3u8";
 
 // PROPELLER INTERSTICIAL
 var propellerIntersticial = document.createElement('script');
@@ -197,3 +198,4 @@ function getParameterByName(name) {
                 if (srcLOAD == "tv3cat") {srcLOAD = tv3cat;}
                 if (srcLOAD == "lasexta") {srcLOAD = lasexta;}
                 if (srcLOAD == "clarosp") {srcLOAD = clarosp;}
+                if (srcLOAD == "tcsgo") {srcLOAD = tcsgo;}
