@@ -38,6 +38,12 @@ let tsi = "//dailymotion.com/embed/video/k4kBR7bvHSEZeSwu26R?autoplay=1";
 let canal5hn = "//dailymotion.com/embed/video/k3RU54lYRXvhyCwgt0d?autoplay=1";
 let telecadena = "//dailymotion.com/embed/video/k1fuFbqqr7UftiwnPY7?autoplay=1";
 let tvcdeportes = "//dailymotion.com/embed/video/k47r4gXKjUTXzNwHsoc?autoplay=1";
+// EVENTUALES
+let tsie = "";
+let canal5hne = "";
+let telecadenae = "";
+let tvcdeportese = "https://www.dailymotion.com/cdn/live/video/x7xs2wx.m3u8?sec=Q1SDWS6gnXr0e4vL1Yp0IFKIldwqOIq058QPQcj2I788EEw3BaimiYaFbbhui8ndzEBSmBH2EBtWcuGDTICRtQ";
+
 let tudnif = "//futbollibre.net/en-vivo/tudn/embed.html?";
 let tycif = "//futbollibre.net/en-vivo/tyc-sports/embed.html";
 
@@ -264,8 +270,27 @@ function getParameterByName(name) {
                     closeOnClickOutside: false,
                     buttons: [false],
                 });}
+
+                if (src == "tsie") {src = tsie;}
+                if (src == "tsie?cast") {src = tsie; swal({
+                    icon: "info",
+                    title: "Oops!",
+                    text: "Este contenido no reproducirá al menos que utilices Web Caster para enviar a tu TV.",
+                    closeOnEsc: false,
+                    closeOnClickOutside: false,
+                    buttons: [false],
+                });}
                 if (src == "canal5hn") {src = canal5hn;}
                 if (src == "canal5hn?cast") {src = canal5hn; swal({
+                    icon: "info",
+                    title: "Oops!",
+                    text: "Este contenido no reproducirá al menos que utilices Web Caster para enviar a tu TV.",
+                    closeOnEsc: false,
+                    closeOnClickOutside: false,
+                    buttons: [false],
+                });}
+                if (src == "canal5hne") {src = canal5hne;}
+                if (src == "canal5hne?cast") {src = canal5hne; swal({
                     icon: "info",
                     title: "Oops!",
                     text: "Este contenido no reproducirá al menos que utilices Web Caster para enviar a tu TV.",
@@ -284,8 +309,28 @@ function getParameterByName(name) {
                     buttons: [false],
                 });}
 
+                if (src == "telecadenae") {src = telecadenae;}
+                if (src == "telecadenae?cast") {src = telecadenae; swal({
+                    icon: "info",
+                    title: "Oops!",
+                    text: "Este contenido no reproducirá al menos que utilices Web Caster para enviar a tu TV.",
+                    closeOnEsc: false,
+                    closeOnClickOutside: false,
+                    buttons: [false],
+                });}
+
                 if (src == "tvcdeportes") {src = tvcdeportes;}
                 if (src == "tvcdeportes?cast") {src = tvcdeportes; swal({
+                    icon: "info",
+                    title: "Oops!",
+                    text: "Este contenido no reproducirá al menos que utilices Web Caster para enviar a tu TV.",
+                    closeOnEsc: false,
+                    closeOnClickOutside: false,
+                    buttons: [false],
+                });}
+
+                if (src == "tvcdeportese") {src = tvcdeportese;}
+                if (src == "tvcdeportese?cast") {src = tvcdeportese; swal({
                     icon: "info",
                     title: "Oops!",
                     text: "Este contenido no reproducirá al menos que utilices Web Caster para enviar a tu TV.",
