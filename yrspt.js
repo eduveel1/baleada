@@ -303,7 +303,16 @@ function getParameterByName(name) {
                     closeOnClickOutside: false,
                     buttons: [false],
                 });}
-                if (src == "tvpublica") {src = tvpublica;}
+
+                if (src == "tycif") {src = tycif;}
+                if (src == "tycif?cast") {src = tycif; swal({
+                    icon: "info",
+                    title: "Oops!",
+                    text: "Este contenido no reproducirá al menos que utilices Web Caster para enviar a tu TV.",
+                    closeOnEsc: false,
+                    closeOnClickOutside: false,
+                    buttons: [false],
+                });}
 
 
                 // PLAYER
