@@ -6,7 +6,7 @@ if (location.protocol == 'https:') {
 let p1 = "http://134.209.254.135/live/ovo1/playlist.m3u8";
 let p2 = "http://134.209.223.67/live/ovo2/playlist.m3u8";
 let p3 = "http://134.209.254.135/live/ovo3/playlist.m3u8";
-let p4 = "http://167.99.136.37/live/ovo1/playlist.m3u8";
+let p4 = "http://68.183.125.254/live/ovo4/playlist.m3u8";
 let p5 = "http://147.182.215.210/live/ovochannel1/playlist.m3u8";
 let p6 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let p7 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
