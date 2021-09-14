@@ -1,5 +1,5 @@
 let NFLsteelers = `
-<a href="http://slowdsports.000webhostapp.com/nfl.html?src=steelers">
+<a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=steelers">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - steelers | HD</li>
 </a>
@@ -7,7 +7,7 @@ let NFLsteelers = `
 for (const ele of document.getElementsByClassName("nftv-steelers")){ele.innerHTML=(NFLsteelers)}
 
 let NFLchiefs = `
-<a href="http://slowdsports.000webhostapp.com/nfl.html?src=chiefs">
+<a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=chiefs">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - chiefs | HD</li>
 </a>
@@ -15,7 +15,7 @@ let NFLchiefs = `
 for (const ele of document.getElementsByClassName("nftv-chiefs")){ele.innerHTML=(NFLchiefs)}
 
 let NFLsaints = `
-<a href="http://slowdsports.000webhostapp.com/nfl.html?src=saints">
+<a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=saints">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - saints | HD</li>
 </a>
@@ -23,7 +23,7 @@ let NFLsaints = `
 for (const ele of document.getElementsByClassName("nftv-saints")){ele.innerHTML=(NFLsaints)}
 
 let NFLbills = `
-<a href="http://slowdsports.000webhostapp.com/nfl.html?src=bills">
+<a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=bills">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - bills | HD</li>
 </a>
@@ -31,7 +31,7 @@ let NFLbills = `
 for (const ele of document.getElementsByClassName("nftv-bills")){ele.innerHTML=(NFLbills)}
 
 let NFLbrowns = `
-<a href="http://slowdsports.000webhostapp.com/nfl.html?src=browns">
+<a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=browns">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - browns | HD</li>
 </a>
@@ -39,7 +39,7 @@ let NFLbrowns = `
 for (const ele of document.getElementsByClassName("nftv-browns")){ele.innerHTML=(NFLbrowns)}
 
 let NFLpackers = `
-<a href="http://slowdsports.000webhostapp.com/nfl.html?src=packers">
+<a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=packers">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - packers | HD</li>
 </a>
@@ -47,7 +47,7 @@ let NFLpackers = `
 for (const ele of document.getElementsByClassName("nftv-packers")){ele.innerHTML=(NFLpackers)}
 
 let NFLcolts = `
-<a href="http://slowdsports.000webhostapp.com/nfl.html?src=colts">
+<a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=colts">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - colts | HD</li>
 </a>
@@ -55,7 +55,7 @@ let NFLcolts = `
 for (const ele of document.getElementsByClassName("nftv-colts")){ele.innerHTML=(NFLcolts)}
 
 let NFLrams = `
-<a href="http://slowdsports.000webhostapp.com/nfl.html?src=rams">
+<a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=rams">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - RAMS | HD</li>
 </a>
@@ -63,7 +63,7 @@ let NFLrams = `
 for (const ele of document.getElementsByClassName("nftv-rams")){ele.innerHTML=(NFLrams)}
 
 let NFLseahawks = `
-<a href="http://slowdsports.000webhostapp.com/nfl.html?src=seahawks">
+<a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=seahawks">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - seahawks | HD</li>
 </a>
@@ -71,7 +71,7 @@ let NFLseahawks = `
 for (const ele of document.getElementsByClassName("nftv-seahawks")){ele.innerHTML=(NFLseahawks)}
 
 let NFLtitans = `
-<a href="http://slowdsports.000webhostapp.com/nfl.html?src=titans">
+<a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=titans">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - titans | HD</li>
 </a>
@@ -79,7 +79,7 @@ let NFLtitans = `
 for (const ele of document.getElementsByClassName("nftv-titans")){ele.innerHTML=(NFLtitans)}
 
 let NFLbuccaneers = `
-<a href="http://slowdsports.000webhostapp.com/nfl.html?src=buccaneers">
+<a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=buccaneers">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - buccaneers | HD</li>
 </a>
@@ -87,7 +87,7 @@ let NFLbuccaneers = `
 for (const ele of document.getElementsByClassName("nftv-buccaneers")){ele.innerHTML=(NFLbuccaneers)}
 
 let NFLcardinals = `
-<a href="http://slowdsports.000webhostapp.com/nfl.html?src=cardinals">
+<a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=cardinals">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - cardinals | HD</li>
 </a>
@@ -95,7 +95,7 @@ let NFLcardinals = `
 for (const ele of document.getElementsByClassName("nftv-cardinals")){ele.innerHTML=(NFLcardinals)}
 
 let NFLravens = `
-<a href="http://slowdsports.000webhostapp.com/nfl.html?src=ravens">
+<a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=ravens">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - ravens | HD</li>
 </a>
@@ -103,7 +103,7 @@ let NFLravens = `
 for (const ele of document.getElementsByClassName("nftv-ravens")){ele.innerHTML=(NFLravens)}
 
 let NFLraiders = `
-<a href="http://slowdsports.000webhostapp.com/nfl.html?src=raiders">
+<a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=raiders">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - raiders | HD</li>
 </a>
@@ -111,7 +111,7 @@ let NFLraiders = `
 for (const ele of document.getElementsByClassName("nftv-raiders")){ele.innerHTML=(NFLraiders)}
 
 let NFLdolphins = `
-<a href="http://slowdsports.000webhostapp.com/nfl.html?src=dolphins">
+<a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=dolphins">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - dolphins | HD</li>
 </a>
@@ -119,7 +119,7 @@ let NFLdolphins = `
 for (const ele of document.getElementsByClassName("nftv-dolphins")){ele.innerHTML=(NFLdolphins)}
 
 let NFLbears = `
-<a href="http://slowdsports.000webhostapp.com/nfl.html?src=bears">
+<a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=bears">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - bears | HD</li>
 </a>
@@ -127,7 +127,7 @@ let NFLbears = `
 for (const ele of document.getElementsByClassName("nftv-bears")){ele.innerHTML=(NFLbears)}
 
 let NFLbroncos = `
-<a href="http://slowdsports.000webhostapp.com/nfl.html?src=broncos">
+<a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=broncos">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - broncos | HD</li>
 </a>
@@ -135,7 +135,7 @@ let NFLbroncos = `
 for (const ele of document.getElementsByClassName("nftv-broncos")){ele.innerHTML=(NFLbroncos)}
 
 let NFLlions = `
-<a href="http://slowdsports.000webhostapp.com/nfl.html?src=lions">
+<a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=lions">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - lions | HD</li>
 </a>
@@ -143,7 +143,7 @@ let NFLlions = `
 for (const ele of document.getElementsByClassName("nftv-lions")){ele.innerHTML=(NFLlions)}
 
 let NFLvikings = `
-<a href="http://slowdsports.000webhostapp.com/nfl.html?src=vikings">
+<a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=vikings">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - vikings | HD</li>
 </a>
@@ -151,7 +151,7 @@ let NFLvikings = `
 for (const ele of document.getElementsByClassName("nftv-vikings")){ele.innerHTML=(NFLvikings)}
 
 let NFLpatriots = `
-<a href="http://slowdsports.000webhostapp.com/nfl.html?src=patriots">
+<a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=patriots">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - patriots | HD</li>
 </a>
@@ -159,7 +159,7 @@ let NFLpatriots = `
 for (const ele of document.getElementsByClassName("nftv-patriots")){ele.innerHTML=(NFLpatriots)}
 
 let NFLsf49ers = `
-<a href="http://slowdsports.000webhostapp.com/nfl.html?src=sf49ers">
+<a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=sf49ers">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - 49ers | HD</li>
 </a>
@@ -167,7 +167,7 @@ let NFLsf49ers = `
 for (const ele of document.getElementsByClassName("nftv-sf49ers")){ele.innerHTML=(NFLsf49ers)}
 
 let NFLpanthers = `
-<a href="http://slowdsports.000webhostapp.com/nfl.html?src=panthers">
+<a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=panthers">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - panthers | HD</li>
 </a>
@@ -175,7 +175,7 @@ let NFLpanthers = `
 for (const ele of document.getElementsByClassName("nftv-panthers")){ele.innerHTML=(NFLpanthers)}
 
 let NFLeagles = `
-<a href="http://slowdsports.000webhostapp.com/nfl.html?src=eagles">
+<a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=eagles">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - eagles | HD</li>
 </a>
@@ -183,7 +183,7 @@ let NFLeagles = `
 for (const ele of document.getElementsByClassName("nftv-eagles")){ele.innerHTML=(NFLeagles)}
 
 let NFLfalcons = `
-<a href="http://slowdsports.000webhostapp.com/nfl.html?src=falcons">
+<a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=falcons">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - falcons | HD</li>
 </a>
@@ -191,7 +191,7 @@ let NFLfalcons = `
 for (const ele of document.getElementsByClassName("nftv-falcons")){ele.innerHTML=(NFLfalcons)}
 
 let NFLcowboys = `
-<a href="http://slowdsports.000webhostapp.com/nfl.html?src=cowboys">
+<a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=cowboys">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - cowboys | HD</li>
 </a>
@@ -199,7 +199,7 @@ let NFLcowboys = `
 for (const ele of document.getElementsByClassName("nftv-cowboys")){ele.innerHTML=(NFLcowboys)}
 
 let NFLtexans = `
-<a href="http://slowdsports.000webhostapp.com/nfl.html?src=texans">
+<a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=texans">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - texans | HD</li>
 </a>
@@ -207,7 +207,7 @@ let NFLtexans = `
 for (const ele of document.getElementsByClassName("nftv-texans")){ele.innerHTML=(NFLtexans)}
 
 let NFLchargers = `
-<a href="http://slowdsports.000webhostapp.com/nfl.html?src=chargers">
+<a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=chargers">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - chargers | HD</li>
 </a>
@@ -215,7 +215,7 @@ let NFLchargers = `
 for (const ele of document.getElementsByClassName("nftv-chargers")){ele.innerHTML=(NFLchargers)}
 
 let NFLgiants = `
-<a href="http://slowdsports.000webhostapp.com/nfl.html?src=giants">
+<a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=giants">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - giants | HD</li>
 </a>
@@ -223,7 +223,7 @@ let NFLgiants = `
 for (const ele of document.getElementsByClassName("nftv-giants")){ele.innerHTML=(NFLgiants)}
 
 let NFLwashington = `
-<a href="http://slowdsports.000webhostapp.com/nfl.html?src=washington">
+<a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=washington">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - washington | HD</li>
 </a>
@@ -231,7 +231,7 @@ let NFLwashington = `
 for (const ele of document.getElementsByClassName("nftv-washington")){ele.innerHTML=(NFLwashington)}
 
 let NFLbengals = `
-<a href="http://slowdsports.000webhostapp.com/nfl.html?src=bengals">
+<a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=bengals">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - bengals | HD</li>
 </a>
@@ -239,7 +239,7 @@ let NFLbengals = `
 for (const ele of document.getElementsByClassName("nftv-bengals")){ele.innerHTML=(NFLbengals)}
 
 let NFLjaguars = `
-<a href="http://slowdsports.000webhostapp.com/nfl.html?src=jaguars">
+<a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=jaguars">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - jaguars | HD</li>
 </a>
@@ -247,7 +247,7 @@ let NFLjaguars = `
 for (const ele of document.getElementsByClassName("nftv-jaguars")){ele.innerHTML=(NFLjaguars)}
 
 let NFLjets = `
-<a href="http://slowdsports.000webhostapp.com/nfl.html?src=jets">
+<a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=jets">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - jets | HD</li>
 </a>
