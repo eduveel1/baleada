@@ -230,10 +230,10 @@ let MLBorioles = `
 `;
 for(const ele of document.getElementsByClassName("mltv-orioles")){ele.innerHTML=(MLBorioles)};
 
-let MLBdiamondbacks = `
-<a href="http://slowdsports.000webhostapp.com/mlb.html?src=diamondbacks">
+let MLBdbacks = `
+<a href="http://slowdsports.000webhostapp.com/mlb.html?src=dbacks">
 <li class="canalito list-group-item darkolorbg blancolor">
-<i class="us flag"></i> MLB TV - diamondbacks | HD</li>
+<i class="us flag"></i> MLB TV - dbacks | HD</li>
 </a>
 `;
-for(const ele of document.getElementsByClassName("mltv-diamondbacks")){ele.innerHTML=(MLBdiamondbacks)};
+for(const ele of document.getElementsByClassName("mltv-dbacks")){ele.innerHTML=(MLBdbacks)};
