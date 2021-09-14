@@ -3,8 +3,8 @@ if (location.protocol == 'https:') {
     location.replace(`http:${location.href.substring(location.protocol.length)}`);
 }
 // E P L
-let p1 = "https://cdn.raino.xyz/soccer/soccer4-version0/rainostream.m3u8";
-let p2 = "http://134.209.223.67/live/ovo2/playlist.m3u8";
+let p1 = "http://77.247.109.101/hls/A1.m3u8?per";
+let p2 = "http://185.53.89.183/hls/bt2.m3u8?per";
 let p3 = "http://134.209.220.115/live/ovo3/playlist.m3u8";
 let p4 = "http://68.183.125.254/live/ovo4/playlist.m3u8";
 let p5 = "http://147.182.215.210/live/ovochannel1/playlist.m3u8";
