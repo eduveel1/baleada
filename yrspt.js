@@ -47,7 +47,7 @@ let tvcdeportese = "https://www.dailymotion.com/cdn/live/video/x7xs2wx.m3u8?sec=
 let tudnif = "//futbollibre.net/en-vivo/tudn/embed.html?";
 let tycif = "//futbollibre.net/en-vivo/tyc-sports/embed.html";
 
-swal("¿El contenido no reproduce?", "Utiliza Google Chrome!", "success");
+//swal("¿El contenido no reproduce?", "Utiliza Google Chrome!", "success");
 
 function getParameterByName(name) {
                       name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
