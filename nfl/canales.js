@@ -164,7 +164,7 @@ let NFLsf49ers = `
 <i class="us flag"></i> NFL TV - 49ers | HD</li>
 </a>
 `;
-for (const ele of document.getElementsByClassName("nftv-49ers")){ele.innerHTML=(NFLsf49ers)}
+for (const ele of document.getElementsByClassName("nftv-sf49ers")){ele.innerHTML=(NFLsf49ers)}
 
 let NFLpanthers = `
 <a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=panthers">
