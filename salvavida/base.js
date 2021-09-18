@@ -1,8 +1,8 @@
 // LINK DE LOS CANALES
 
-let telecadena = "telecadena.m3u8";
-let tsi = "tsi.m3u8";
-let canal5 = "canal5.m3u8"
+let telecadena = "//miurl.com/telecadena.m3u8";
+let tsi = "//miurl.com/tsi.m3u8";
+let canal5 = "//miurl.com/canal5.m3u8"
 
 let tigohn = "go:tigohn";
 let tdtvp = "go:tdtvp";
