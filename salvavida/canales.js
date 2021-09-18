@@ -1,16 +1,3 @@
-// LINK DE LOS CANALES
-
-let telecadena = "telecadena.m3u8";
-let tsi = "tsi.m3u8";
-let canal5 = "canal5.m3u8"
-
-let tigohn = "go:tigohn";
-let tdtvp = "go:tdtvp";
-
-// CANAL DEL EQUIPO
-
- 
-
 let SALOlimpia = `
 <a href="//slowdsports.000webhostapp.com/salvavida.php?g=olimpia">
 <li class="canalito list-group-item darkolorbg blancolor">
