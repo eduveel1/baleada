@@ -3,7 +3,7 @@ if (location.protocol == 'https:') {
     location.replace(`http:${location.href.substring(location.protocol.length)}`);
 }
 // E P L
-let p1 = "http://77.247.109.101/hls/A1.m3u8?per";
+let p1 = "https://d3cpfh5rner5lz.cloudfront.net:443/out/v1/31880145563a4cefae99c73d611cf070/index_6.m3u8";
 let p2 = "http://185.53.89.183/hls/bt2.m3u8?per";
 let p3 = "http://134.209.220.115/live/ovo3/playlist.m3u8";
 let p4 = "http://68.183.125.254/live/ovo4/playlist.m3u8";
