@@ -25,7 +25,7 @@ let c8 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let c9 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let c10 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 // S A T
-let s1 = "http://cdn2.cyclingstreams.xyz/hls/P1.m3u8?SBN";
+let s1 = "http://cdn2.cyclingstreams.xyz/hls/P1.m3u8";
 let s2 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let s3 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let s4 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
