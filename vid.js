@@ -3,7 +3,7 @@ if (location.protocol == 'https:') {
     location.replace(`http:${location.href.substring(location.protocol.length)}`);
 }
 // E P L
-let p1 = "http://77.247.109.101/hls/A1.m3u8?per";
+let p1 = "https://d3cpfh5rner5lz.cloudfront.net:443/out/v1/31880145563a4cefae99c73d611cf070/index_6.m3u8";
 let p2 = "http://185.53.89.183/hls/bt2.m3u8?per";
 let p3 = "http://134.209.220.115/live/ovo3/playlist.m3u8";
 let p4 = "http://68.183.125.254/live/ovo4/playlist.m3u8";
@@ -14,10 +14,10 @@ let p8 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let p9 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let p10 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 // L L S
-let c1 = "//5.9.104.206:2536/live/iraffle/slowd2021/28.m3u8";
-let c2 = "https://d18wuqb33xq9fu.cloudfront.net/out/v1/65f0f6c5465044b584bdeb1c039b9ed3/index.m3u8";
-let c3 = "http://167.99.203.77/live/ovochannel2/playlist.m3u8";
-let c4 = "http://159.65.82.57/live/ovochannel1/playlist.m3u8";
+let c1 = "https://d1wyaka392x40v.cloudfront.net/out/v1/9eb823ff6594476398660f790a6af3aa/index.m3u8";
+let c2 = "https://d29a96l9g813gl.cloudfront.net/out/v1/85a4c02d454545d4a3e979db7d5b0f57/index.m3u8";
+let c3 = "https://d3q7trm9v7bbnm.cloudfront.net/out/v1/e587cc3f9edc45e38f44a72c52479eeb/index.m3u8";
+let c4 = "https://d2rb2gmgfn3b7p.cloudfront.net/out/v1/2d54d2039bf94a1e9af4ff51e7120525/index.m3u8";
 let c5 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let c6 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let c7 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
@@ -25,7 +25,7 @@ let c8 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let c9 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let c10 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 // S A T
-let s1 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let s1 = "http://master2b.uefa-tv.com:80/live/6/chunks.m3u8?SBN";
 let s2 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let s3 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let s4 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
@@ -36,16 +36,16 @@ let s8 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let s9 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let s10 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 // B D L
-let b1 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
-let b2 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
-let b3 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
-let b4 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
-let b5 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
-let b6 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
-let b7 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
-let b8 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
-let b9 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
-let b10 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let b1 = "https://d16239coczmvcl.cloudfront.net/out/v1/9f9d4ae55cde43baa34395a63b6c88c2/index.m3u8";
+let b2 = "https://d2rb2gmgfn3b7p.cloudfront.net/out/v1/2d54d2039bf94a1e9af4ff51e7120525/index.m3u8";
+let b3 = "https://d15tl3sgcogb4e.cloudfront.net/out/v1/d2fe27cbd29b42f19c30f0a847b7fa9c/index.m3u8";
+let b4 = "https://d1i6jh8w6u1d0l.cloudfront.net/out/v1/c4d2973198244528b2fb16f5690c644f/index.m3u8";
+let b5 = "https://d21udn2wbg7rs5.cloudfront.net/out/v1/c8af8b7d88f847818b3b05e7befc02b9/index.m3u8";
+let b6 = "https://d2rayvxkiu73.cloudfront.net/out/v1/828800ae99e349cabc9b8d0b00964134/index.m3u8";
+let b7 = "https://d1wyaka392x40v.cloudfront.net/out/v1/9eb823ff6594476398660f790a6af3aa/index.m3u8";
+let b8 = "https://d29a96l9g813gl.cloudfront.net/out/v1/85a4c02d454545d4a3e979db7d5b0f57/index.m3u8";
+let b9 = "https://d3q7trm9v7bbnm.cloudfront.net/out/v1/e587cc3f9edc45e38f44a72c52479eeb/index.m3u8";
+let b10 = "https://d2rb2gmgfn3b7p.cloudfront.net/out/v1/2d54d2039bf94a1e9af4ff51e7120525/index.m3u8";
 // L G 1
 let l1 = "http://206.189.17.7/live/ovochannel2/playlist.m3u8";
 let l2 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";

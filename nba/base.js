@@ -2,7 +2,7 @@ let ml0 = "http://g.givemenbastreams.com/hls/";
 let ml1 = "/playlist.m3u8";
 
 let nba1 = "http://cbsnhls-i.akamaihd.net/hls/live/264710/CBSN_mdialog/prodstream/master.m3u8";
-let nba2 = "http://cbsnhls-i.akamaihd.net/hls/live/264710/CBSN_mdialog/prodstream/master.m3u8";
+let nba2 = "https://d2arwqy9njbull.cloudfront.net/out/v1/dbb832fdfa3c47ca81f60884cfb725e4/index.m3u8";
 let nba3 = "http://cbsnhls-i.akamaihd.net/hls/live/264710/CBSN_mdialog/prodstream/master.m3u8";
 let nba4 = "http://cbsnhls-i.akamaihd.net/hls/live/264710/CBSN_mdialog/prodstream/master.m3u8";
 let nba5 = "http://cbsnhls-i.akamaihd.net/hls/live/264710/CBSN_mdialog/prodstream/master.m3u8";
