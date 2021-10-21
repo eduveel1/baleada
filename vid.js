@@ -14,10 +14,10 @@ let p8 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let p9 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let p10 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 // L L S
-let c1 = "//5.9.104.206:2536/live/iraffle/slowd2021/28.m3u8";
-let c2 = "https://d18wuqb33xq9fu.cloudfront.net/out/v1/65f0f6c5465044b584bdeb1c039b9ed3/index.m3u8";
-let c3 = "http://167.99.203.77/live/ovochannel2/playlist.m3u8";
-let c4 = "http://159.65.82.57/live/ovochannel1/playlist.m3u8";
+let c1 = "https://d1wyaka392x40v.cloudfront.net/out/v1/9eb823ff6594476398660f790a6af3aa/index.m3u8";
+let c2 = "https://d29a96l9g813gl.cloudfront.net/out/v1/85a4c02d454545d4a3e979db7d5b0f57/index.m3u8";
+let c3 = "https://d3q7trm9v7bbnm.cloudfront.net/out/v1/e587cc3f9edc45e38f44a72c52479eeb/index.m3u8";
+let c4 = "https://d2rb2gmgfn3b7p.cloudfront.net/out/v1/2d54d2039bf94a1e9af4ff51e7120525/index.m3u8";
 let c5 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let c6 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let c7 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
