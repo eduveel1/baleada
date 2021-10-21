@@ -62,17 +62,6 @@ let hn1 = "";
 let hn2 = "";
 let hn3 = "";
 
-// N B A
-let nba1 = "https://d15tl3sgcogb4e.cloudfront.net/out/v1/d2fe27cbd29b42f19c30f0a847b7fa9c/index.m3u8";
-let nba2 = "https://d2rb2gmgfn3b7p.cloudfront.net/out/v1/2d54d2039bf94a1e9af4ff51e7120525/index.m3u8";
-let nba3 = "https://d15tl3sgcogb4e.cloudfront.net/out/v1/d2fe27cbd29b42f19c30f0a847b7fa9c/index.m3u8";
-let nba4 = "https://d1i6jh8w6u1d0l.cloudfront.net/out/v1/c4d2973198244528b2fb16f5690c644f/index.m3u8";
-let nba5 = "https://d21udn2wbg7rs5.cloudfront.net/out/v1/c8af8b7d88f847818b3b05e7befc02b9/index.m3u8";
-let nba6 = "https://d2rayvxkiu73.cloudfront.net/out/v1/828800ae99e349cabc9b8d0b00964134/index.m3u8";
-let nba7 = "https://d1wyaka392x40v.cloudfront.net/out/v1/9eb823ff6594476398660f790a6af3aa/index.m3u8";
-let nba8 = "https://d29a96l9g813gl.cloudfront.net/out/v1/85a4c02d454545d4a3e979db7d5b0f57/index.m3u8";
-let nba9 = "https://d3q7trm9v7bbnm.cloudfront.net/out/v1/e587cc3f9edc45e38f44a72c52479eeb/index.m3u8";
-let nba10 = "https://d2rb2gmgfn3b7p.cloudfront.net/out/v1/2d54d2039bf94a1e9af4ff51e7120525/index.m3u8";
 
 // FS
 var elem = document.getElementById("vidarea");
@@ -148,19 +137,6 @@ function getParameterByName(name) {
                 if (srcLOAD == "b8") {srcLOAD = b8;}
                 if (srcLOAD == "b9") {srcLOAD = b9;}
                 if (srcLOAD == "b10") {srcLOAD = b10;}
-
-                // NBA
-                if (srcLOAD == "nba1") {srcLOAD = nba1;}
-                if (srcLOAD == "b2") {srcLOAD = b2;}
-                if (srcLOAD == "b3") {srcLOAD = b3;}
-                if (srcLOAD == "b4") {srcLOAD = b4;}
-                if (srcLOAD == "b5") {srcLOAD = b5;}
-                if (srcLOAD == "b6") {srcLOAD = b6;}
-                if (srcLOAD == "b7") {srcLOAD = b7;}
-                if (srcLOAD == "b8") {srcLOAD = b8;}
-                if (srcLOAD == "b9") {srcLOAD = b9;}
-                if (srcLOAD == "b10") {srcLOAD = b10;}
-
 
                 // L G 1
                 if (srcLOAD == "l1") {srcLOAD = l1;}
