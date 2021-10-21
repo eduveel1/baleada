@@ -3,7 +3,7 @@ window.onload = function() {
                  source: srcLOAD,
                  parentId: '#player',
                  mimeType: 'audio/mpeg',
-                 watermark: "https://i.ibb.co/kqmptsD/iRTVW.png", 
+                 watermark: "https://i.ibb.co/kqmptsD/iRTVW.png",
                  position: 'top-left',
                  plugins: [LevelSelector, ChromecastPlugin, ClapprPip.PipButton, ClapprPip.PipPlugin, DashShakaPlayback, Clappr.MediaControl, PlaybackRatePlugin],
                  events: {onReady: function() {var plugin = this.getPlugin('click_to_pause'); plugin && plugin.disable();},},
@@ -33,11 +33,11 @@ window.onload = function() {
              });
          };
 
-let ml0 = "http://g.givemenbastreams.com/hls/";
-let ml1 = "/playlist.m3u8";
+let ml0 = "http://givemenbastreams.com/";
+let ml1 = "nba.php?g=";
 
 let steelers = ml0+"steelers"+ml1;
-let chiefs = "https://d55lgpkrnvelw.cloudfront.net/out/v1/09c25bd399054eea995718ed21603a1a/index.m3u8";
+let chiefs = ml0+"chiefs"+ml1;
 let saints = "https://d2ky73zs59yzi9.cloudfront.net/out/v1/611a772d08e9412f8458cae2935a1462/index.m3u8";
 let bills = "https://d9rnnej6sqcjj.cloudfront.net/out/v1/da2d821ab32544a5996d3b85b950afef/index.m3u8";
 let browns = "https://dclfh7gh6l145.cloudfront.net/out/v1/393c93af1d044a70811d383e2a2ad6c7/index.m3u8";
