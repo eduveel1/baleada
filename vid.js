@@ -37,8 +37,8 @@ let s9 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let s10 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 // B D L
 let b1 = "https://d2rb2gmgfn3b7p.cloudfront.net/out/v1/2d54d2039bf94a1e9af4ff51e7120525/index.m3u8";
-let b2 = "https://d2rb2gmgfn3b7p.cloudfront.net/out/v1/2d54d2039bf94a1e9af4ff51e7120525/index.m3u8";
-let b3 = "https://d15tl3sgcogb4e.cloudfront.net/out/v1/d2fe27cbd29b42f19c30f0a847b7fa9c/index.m3u8";
+let b2 = "https://d15tl3sgcogb4e.cloudfront.net/out/v1/d2fe27cbd29b42f19c30f0a847b7fa9c/index.m3u8";
+let b3 = "https://d2rb2gmgfn3b7p.cloudfront.net/out/v1/2d54d2039bf94a1e9af4ff51e7120525/index.m3u8";
 let b4 = "https://d1i6jh8w6u1d0l.cloudfront.net/out/v1/c4d2973198244528b2fb16f5690c644f/index.m3u8";
 let b5 = "https://d21udn2wbg7rs5.cloudfront.net/out/v1/c8af8b7d88f847818b3b05e7befc02b9/index.m3u8";
 let b6 = "https://d2rayvxkiu73.cloudfront.net/out/v1/828800ae99e349cabc9b8d0b00964134/index.m3u8";
