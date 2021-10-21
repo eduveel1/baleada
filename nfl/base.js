@@ -36,7 +36,7 @@ window.onload = function() {
 let ml0 = "http://givemenbastreams.com/";
 let ml1 = "nba.php?g=";
 
-let steelers = ml0+"steelers"+ml1;
+let hawks = ml0+"steelers"+ml1;
 let chiefs = ml0+"chiefs"+ml1;
 let saints = "https://d2ky73zs59yzi9.cloudfront.net/out/v1/611a772d08e9412f8458cae2935a1462/index.m3u8";
 let bills = "https://d9rnnej6sqcjj.cloudfront.net/out/v1/da2d821ab32544a5996d3b85b950afef/index.m3u8";
@@ -87,7 +87,7 @@ function getParameterByName(name) {
                 if (srcLOAD == "#") {swal("Oops!", "Parece que este canal esá offline!", "error");}
                 if (srcLOAD == "") {swal("Oops!", "Parece que este canal esá offline!", "error");}
 
-                if (srcLOAD == "steelers") {srcLOAD = steelers;}
+                if (srcLOAD == "hawks") {srcLOAD = hawks;}
                 if (srcLOAD == "chiefs") {srcLOAD = chiefs;}
                 if (srcLOAD == "saints") {srcLOAD = saints;}
                 if (srcLOAD == "bills") {srcLOAD = bills;}
