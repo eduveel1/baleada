@@ -4,7 +4,7 @@ if (location.protocol == 'https:') {
 }
 // E P L
 let p1 = "https://d1h9194ngnl5r0.cloudfront.net/out/v1/ab7490eb78a14cf7adcc8a3d8503939c/index.m3u8";
-let p2 = "http://185.53.89.183/hls/bt2.m3u8?per";
+let p2 = "https://d3a46u8qq0keyf.cloudfront.net/out/v1/b728d494ce9e415fae55695e65e5f138/index.m3u8";
 let p3 = "http://134.209.220.115/live/ovo3/playlist.m3u8";
 let p4 = "http://68.183.125.254/live/ovo4/playlist.m3u8";
 let p5 = "http://147.182.215.210/live/ovochannel1/playlist.m3u8";
