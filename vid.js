@@ -6,7 +6,7 @@ if (location.protocol == 'https:') {
 let p1 = "https://d1h9194ngnl5r0.cloudfront.net/out/v1/ab7490eb78a14cf7adcc8a3d8503939c/index.m3u8";
 let p2 = "https://d3a46u8qq0keyf.cloudfront.net/out/v1/b728d494ce9e415fae55695e65e5f138/index.m3u8";
 let p3 = "https://d25uw4quqk8xvr.cloudfront.net/out/v1/fe4610c4a15644eb821b194f393b82e1/index.m3u8";
-let p4 = "http://68.183.125.254/live/ovo4/playlist.m3u8";
+let p4 = "https://dfyad8t4im6xo.cloudfront.net/out/v1/f0dff2bb3c294c7199feb893ae1e3b48/index.m3u8";
 let p5 = "http://147.182.215.210/live/ovochannel1/playlist.m3u8";
 let p6 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let p7 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
