@@ -3,8 +3,8 @@ if (location.protocol == 'https:') {
     location.replace(`http:${location.href.substring(location.protocol.length)}`);
 }
 // E P L
-let p1 = "https://d1h9194ngnl5r0.cloudfront.net/out/v1/ab7490eb78a14cf7adcc8a3d8503939c/index.m3u8";
-let p2 = "https://d3a46u8qq0keyf.cloudfront.net/out/v1/b728d494ce9e415fae55695e65e5f138/index.m3u8";
+let p1 = "https://d3ilylmlxnxtcf.cloudfront.net/out/v1/a619d5b27c2e4ed19fa12319d14a6581/index.m3u8";
+let p2 = "https://d73o79n7b5cdv.cloudfront.net/out/v1/5b863ce3ab8f4d99920001b557ccab64/index.m3u8";
 let p3 = "https://d25uw4quqk8xvr.cloudfront.net/out/v1/fe4610c4a15644eb821b194f393b82e1/index.m3u8";
 let p4 = "https://dfyad8t4im6xo.cloudfront.net/out/v1/f0dff2bb3c294c7199feb893ae1e3b48/index.m3u8";
 let p5 = "https://d187wj5pnb3c9l.cloudfront.net/out/v1/755dc8b29e6e4426a9caef5b705a3732/index.m3u8";
@@ -12,7 +12,7 @@ let p6 = "https://d3hpljvk7tsuhe.cloudfront.net/out/v1/650cace881a143a8a3ac89fa4
 let p7 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let p8 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let p9 = "https://d3pzeuudqkm0zd.cloudfront.net/out/v1/4b3b3543e11a4ca4a162e2103009cf96/index.m3u8";
-let p10 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let p10 = "https://d36ipihtmx0gjw.cloudfront.net/out/v1/009e97f2e1a64286815693867ab9eb11/index.m3u8";
 // L L S
 let c1 = "https://d1wyaka392x40v.cloudfront.net/out/v1/9eb823ff6594476398660f790a6af3aa/index.m3u8";
 let c2 = "https://d29a96l9g813gl.cloudfront.net/out/v1/85a4c02d454545d4a3e979db7d5b0f57/index.m3u8";
