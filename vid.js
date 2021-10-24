@@ -11,7 +11,7 @@ let p5 = "https://d187wj5pnb3c9l.cloudfront.net/out/v1/755dc8b29e6e4426a9caef5b7
 let p6 = "https://d3hpljvk7tsuhe.cloudfront.net/out/v1/650cace881a143a8a3ac89fa49ac4508/index.m3u8";
 let p7 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 let p8 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
-let p9 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
+let p9 = "https://d3pzeuudqkm0zd.cloudfront.net/out/v1/4b3b3543e11a4ca4a162e2103009cf96/index.m3u8";
 let p10 = "https://sportsgrid-klowdtv.amagi.tv/playlist.m3u8";
 // L L S
 let c1 = "https://d1wyaka392x40v.cloudfront.net/out/v1/9eb823ff6594476398660f790a6af3aa/index.m3u8";
