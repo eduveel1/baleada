@@ -3,8 +3,8 @@ if (location.protocol == 'https:') {
     location.replace(`http:${location.href.substring(location.protocol.length)}`);
 }
 // E P L
-let p1 = "https://d3ilylmlxnxtcf.cloudfront.net/out/v1/a619d5b27c2e4ed19fa12319d14a6581/index.m3u8";
-let p2 = "https://d73o79n7b5cdv.cloudfront.net/out/v1/5b863ce3ab8f4d99920001b557ccab64/index.m3u8";
+let p1 = "https://d1aa7p6sv8kq3t.cloudfront.net/out/v1/ee7371dddbea4f67bb5a69a057b47f65/index.m3u8";
+let p2 = "https://d1hfkhwr29otr.cloudfront.net/out/v1/49f31b78199a49bda231fdbb2ec349b6/index.m3u8";
 let p3 = "https://d3pzeuudqkm0zd.cloudfront.net/out/v1/4b3b3543e11a4ca4a162e2103009cf96/index.m3u8";
 let p4 = "https://dfyad8t4im6xo.cloudfront.net/out/v1/f0dff2bb3c294c7199feb893ae1e3b48/index.m3u8";
 let p5 = "https://d187wj5pnb3c9l.cloudfront.net/out/v1/755dc8b29e6e4426a9caef5b705a3732/index.m3u8";
