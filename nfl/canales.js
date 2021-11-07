@@ -183,7 +183,8 @@ let NFLeagles = `
 for (const ele of document.getElementsByClassName("nftv-eagles")){ele.innerHTML=(NFLeagles)}
 
 let NFLfalcons = `
-<a href="//slowdsports.000webhostapp.com/gm/nfl.php?g=falcons">
+<a href="https://video-weaver.mia05.hls.live-video.net/v1/playlist/CqIFNDFyQ_T4OoMVUOg0oRKRpxXldYbagPzyepMyU6srlySpO79Hv15LGvKLfX-BqsIHKvvUO6-TDig-kEZlde78F-OhVVVJwDtg8WvoLhBFE_NYWW8QST3kxgUL5TVtzqV_PSCt8aUo1gomZvL2GC_39CbQXLMjKuiZPBL__oDXlN9xD7uzr54hn2_vwsRaBoh5fzh1hsBposXDtH5pYeJJDWSjVv8jk43QLoPMES7NCOBbuMVj99yEbKKMylot2NI1zwgT6rYRwkkaaQlqNFXsOa2xKpLvOsZhyTIfISE4xQ63vWlLB3y-BQPnQyWuXvFf4gHxTA6RM8C4S9vljs-Ro5j1bxaQIIDXL0oSh_eTvJ572p4uj5qHiZdF0rSuFRSz93QKDjpktClcg0uZL7wG-2xEsNU9QhI_iE1Xt9-FjqXKLqf1GGil70pPrIlNvdiGyDajMVnNLlRcDQRxUVOKZZYPShcl7YG2ee8ya6rFWWiQu4cDHceeEYfoYmU75q49RtUkzbbZE1whBkplnYyLyUjLISl-ADCGLBOiyesXARDYfN7YGFnYHOAhiDFtfR0m1mQ08Wm4vmXd6NTpeWo9fglujQnsDrGIhJqoB3KghCjUV9WYAnftkpZsjExvPXojFnEDCj5Ti32WNs14_ZLlhiAXe8V8oNqZpVIRN80crbm-5yG2eTHNDUyUjjmkByrkmB0Ud8CfhB-z9T2i1rNrWHK6rIrsTpxuUw7fSy2YyvVmv-_FSF9XUy_9KC7fgZeuiLKZqiE_CIuk__dN4AMr4sWeA1WdjrmXGHo9vJdALAKDEzNdCWZotvZqyvcDy8Mm0lMRJvHNZkSD2Vg00JumVzRgFg97RQl9dnfu8sY_rPsWgSHL2i4cDKceRqUn4rjpZsgaDF1muJu9BAnzXT9eKSABKglldS13ZXN0LTIwnwI.m3u8
+">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - falcons | HD</li>
 </a>
