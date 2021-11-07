@@ -59,8 +59,10 @@ let patriots = "https://d32h3tbcyqcd23.cloudfront.net/out/v1/b57a611ffbc14865811
 let sf49ers = ml0+"sf49ers"+ml1;
 let panthers = "https://d2ddcnh6i9gc4x.cloudfront.net/out/v1/398e61a2435e4db9aa6c150651d67239/index.m3u8";
 let eagles = ml0+"eagles"+ml1;
-let falcons = "https://dxtq3tt6uk0al.cloudfront.net/out/v1/eae64d19aeab4c478a5edf6aa2d4bada/index.m3u8";
-let cowboys = ml0+"cowboys"+ml1;
+let falcons = "https://video-weaver.mia05.hls.live-video.net/v1/playlist/CqIFNDFyQ_T4OoMVUOg0oRKRpxXldYbagPzyepMyU6srlySpO79Hv15LGvKLfX-BqsIHKvvUO6-TDig-kEZlde78F-OhVVVJwDtg8WvoLhBFE_NYWW8QST3kxgUL5TVtzqV_PSCt8aUo1gomZvL2GC_39CbQXLMjKuiZPBL__oDXlN9xD7uzr54hn2_vwsRaBoh5fzh1hsBposXDtH5pYeJJDWSjVv8jk43QLoPMES7NCOBbuMVj99yEbKKMylot2NI1zwgT6rYRwkkaaQlqNFXsOa2xKpLvOsZhyTIfISE4xQ63vWlLB3y-BQPnQyWuXvFf4gHxTA6RM8C4S9vljs-Ro5j1bxaQIIDXL0oSh_eTvJ572p4uj5qHiZdF0rSuFRSz93QKDjpktClcg0uZL7wG-2xEsNU9QhI_iE1Xt9-FjqXKLqf1GGil70pPrIlNvdiGyDajMVnNLlRcDQRxUVOKZZYPShcl7YG2ee8ya6rFWWiQu4cDHceeEYfoYmU75q49RtUkzbbZE1whBkplnYyLyUjLISl-ADCGLBOiyesXARDYfN7YGFnYHOAhiDFtfR0m1mQ08Wm4vmXd6NTpeWo9fglujQnsDrGIhJqoB3KghCjUV9WYAnftkpZsjExvPXojFnEDCj5Ti32WNs14_ZLlhiAXe8V8oNqZpVIRN80crbm-5yG2eTHNDUyUjjmkByrkmB0Ud8CfhB-z9T2i1rNrWHK6rIrsTpxuUw7fSy2YyvVmv-_FSF9XUy_9KC7fgZeuiLKZqiE_CIuk__dN4AMr4sWeA1WdjrmXGHo9vJdALAKDEzNdCWZotvZqyvcDy8Mm0lMRJvHNZkSD2Vg00JumVzRgFg97RQl9dnfu8sY_rPsWgSHL2i4cDKceRqUn4rjpZsgaDF1muJu9BAnzXT9eKSABKglldS13ZXN0LTIwnwI.m3u8
+";
+let cowboys = "https://13324c67fa06.us-west-2.playback.live-video.net/api/video/v1/us-west-2.775435207697.channel.AhMu1AxEtGSA.m3u8
+";
 let texans = "https://dq7hssa0i70ku.cloudfront.net/out/v1/4405856e035c45cb85de4863d5627f79/index.m3u8";
 let chargers = "https://d3b8ylezsyo7ij.cloudfront.net/out/v1/c9b9875f5e8b4eddadceef28322c1aba/index.m3u8";
 let giants = ml0+"giants"+ml1;
