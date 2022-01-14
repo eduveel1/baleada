@@ -39,7 +39,7 @@ let NFLbrowns = `
 for (const ele of document.getElementsByClassName("nftv-browns")){ele.innerHTML=(NFLbrowns)}
 
 let NFLpackers = `
-<a href="http://init.cheches.info/hls/102.m3u8">
+<a href="//eduveel1.github.io/baleada/nfl/base.js">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NFL TV - packers | HD</li>
 </a>
