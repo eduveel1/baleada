@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: slowdsports.com
+Token: ea7efdfc95ee8c7b9f0c32fc2c5c569b7e6d09f2aa59a2738a511fb3859fd026
